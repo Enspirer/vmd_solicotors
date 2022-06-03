@@ -1,0 +1,77 @@
+.vmd-topNav {
+    @include overlay(#000, 0.85);
+
+    .brand-img {
+        width: 65px;
+    }
+
+    .navbar-nav {
+        gap: 2rem;
+
+        .nav-link {
+            font-size: .8rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: $white;
+
+            &.active {
+                color: $light-teal;
+                font-weight: 500;
+            }
+        }
+
+        .dropdown-toggle {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+
+            .bi {
+                color: $white;
+                font-size: .8rem;
+            }
+
+            &::after {
+                content: none;
+            }
+        }
+
+        .dropdown-menu {
+            @include overlay(#000, 0.7);
+            overflow: hidden;
+            border: none;
+            box-shadow: 0 0 2px $light-teal;
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-color: $light-teal;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .dropdown-item {
+                font-size: .8rem;
+                font-weight: 300;
+                color: $white;
+
+                &:hover {
+                    background-color: transparent;
+                    color: $light-teal;
+                }
+            }
+        }
+    }
+
+    .nav-btn {
+        background-color: transparent;
+        border: none;
+
+        .bi {
+            color: $white;
+            font-size: 1.25rem;
+        }
+    }
+}
