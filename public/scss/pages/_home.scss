@@ -1,11 +1,18 @@
-.home-hero-section {
+.hero-section {
     height: 100vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url('../../images/home/hero-banner.png');
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    &.home {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url('../../images/home/hero-banner.png');
+    }
+
+    &.practice-areas {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url('../../images/practice-areas/hero-banner.png');
+    }
 
     .content-block {
         position: absolute;
@@ -439,6 +446,72 @@
                     -webkit-line-clamp: 6;
                     -webkit-box-orient: vertical;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .hero-section {
+        .content-block {
+            max-width: 950px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero-section {
+        .content-block {
+            flex-direction: column;
+            gap: 1.5rem;
+            bottom: unset;
+            top: 60%;
+            transform: translate(-50%, -50%);
+
+            .title-block {
+                text-align: center;
+            }
+
+            .text-block {
+                text-align: center;
+
+                &::before {
+                    content: none;
+                }
+            }
+        }
+    }
+
+    .home-testimony-section {
+        .header {
+            flex-direction: column;
+            text-align: center;
+            gap: 1.5rem;
+        }
+    }
+
+    .home-insight-section {
+        .header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .insight-slider {
+            .slide {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .home-about-section {
+        .main-block {
+            .nav-links {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: flex-start;
+                margin-top: 2rem;
             }
         }
     }

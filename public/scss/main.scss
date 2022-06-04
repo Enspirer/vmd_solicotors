@@ -19,6 +19,10 @@ body {
     }
 }
 
+.light-teal {
+    color: $light-teal !important;
+}
+
 .bg-teal {
     background-color: $teal;
 }
@@ -29,6 +33,7 @@ body {
 
 // Pages
 @import "pages/home";
+@import "pages/practice_areas";
 
 // Includes
 @import "includes/topNav";

@@ -1,0 +1,114 @@
+.pa-header-section {
+    text-align: center;
+    padding: 5rem 0;
+
+    img {
+        display: block;
+        margin: auto;
+        width: 60px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: $white;
+        text-transform: uppercase;
+        margin-top: 1rem;
+    }
+}
+
+.pa-card-section {
+    padding: 0 0 5rem 0;
+
+    .inner-wrapper {
+        .pa-card {
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+            margin: 3rem 0;
+            filter: grayscale(1);
+
+            &.lhs-card {
+                flex-direction: row-reverse;
+            }
+
+            &:hover {
+                filter: grayscale(0);
+
+                .index {
+                    -webkit-text-fill-color: rgba($color: $white, $alpha: .5) !important;
+                }
+            }
+
+            .image-block {
+                flex: 0 0 50%;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    filter: brightness(.7);
+                }
+            }
+
+            .content-block {
+                flex: 0 0 45%;
+                display: flex;
+                flex-direction: column;
+
+                .header {
+                    border-bottom: 1px solid $light-teal;
+                    padding: 1rem 0;
+                    margin-bottom: 2rem;
+
+                    .title {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        color: $white;
+                    }
+
+                    .subtitle {
+                        font-size: .8rem;
+                        font-weight: 200;
+                        color: rgba($color: $light-teal, $alpha: .7);
+                    }
+                }
+
+                p {
+                    font-size: .9rem;
+                    font-weight: 200;
+                    color: rgba($color: $white, $alpha: .45);
+                    flex: 1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 4;
+                    -webkit-box-orient: vertical;
+                }
+
+                .card-link {
+                    text-decoration: none;
+                    color: $white;
+                    font-size: .9rem;
+                    font-weight: 200;
+                    text-transform: uppercase;
+
+                    .bi {
+                        font-size: 1rem;
+                        margin-left: .5rem;
+                        line-height: 1;
+                    }
+                }
+
+                .index {
+                    font-size: 5rem;
+                    font-weight: 700;
+                    text-align: right;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: rgba($color: $white, $alpha: .5);
+                    -webkit-text-fill-color: $black;
+                }
+            }
+        }
+    }
+}

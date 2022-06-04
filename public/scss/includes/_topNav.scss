@@ -40,7 +40,7 @@
             overflow: hidden;
             border: none;
             box-shadow: 0 0 2px $light-teal;
-            position: relative;
+            position: absolute;
 
             &::before {
                 content: '';
@@ -65,13 +65,40 @@
         }
     }
 
-    .nav-btn {
-        background-color: transparent;
+    .navbar-toggler {
+        padding: 0;
         border: none;
 
-        .bi {
-            color: $white;
-            font-size: 1.25rem;
+        i {
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        &:focus {
+            box-shadow: none;
+            outline: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .vmd-topNav {
+        .navbar-nav {
+            gap: .5rem;
+
+            .btn-group {
+                gap: .5rem;
+            }
+
+            .nav-item {
+                width: fit-content;
+            }
+
+            .dropdown-menu {
+                left: -1%;
+                background-color: $black;
+            }
         }
     }
 }

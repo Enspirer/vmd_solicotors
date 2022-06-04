@@ -4,7 +4,7 @@
 
 @section('content')
     
-<section class="home-hero-section">
+<section class="home hero-section">
     <div class="container">
         <div class="content-block">
             <div class="title-block">
@@ -26,7 +26,7 @@
 <section class="home-about-section">
     <div class="container">
         <div class="row g-4">
-            <div class="col-lg-7">
+            <div class="col-xl-7">
                 <div class="main-block">
                     <div class="title">The Firm</div>
                     <p>SVMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-xl-5">
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="feature-block top-block bg-teal">
@@ -58,7 +58,7 @@
     </div>
 </section>
 
-<section class="home-practice-area-section">
+<!-- <section class="home-practice-area-section">
     <div class="container">
         <div class="row g-0">
             <div class="col-lg-11">
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="home-testimony-section">
     <div class="container">
@@ -212,6 +212,11 @@ var testimonialSlider = new Splide( '#testimonialSlider', {
   fixedWidth: '600px',
   gap: '2rem',
   arrows: false,
+  breakpoints: {
+		991: {
+			fixedWidth: '300px',
+		},
+  },
 } );
 
 testimonialSlider.mount();
@@ -222,6 +227,11 @@ var insightSlider = new Splide( '#insightSlider', {
   gap: '2rem',
   arrows: false,
   pagination: false,
+  breakpoints: {
+		991: {
+			fixedWidth: '300px',
+		},
+  },
 } );
 
 insightSlider.mount();

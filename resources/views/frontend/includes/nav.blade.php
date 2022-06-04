@@ -1,16 +1,16 @@
-<nav class="navbar vmd-topNav fixed-top navbar-expand-lg">
+<nav class="navbar vmd-topNav fixed-top navbar-expand-xl">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="{{url('images/logo/vmd-logo.svg')}}" class="brand-img">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#vmdTopNav"
             aria-controls="vmdTopNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="vmdTopNav">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="{{route('frontend.index')}}">Home</a>
                 </li>
                 <li class="nav-item btn-group">
                     <a class="nav-link" href="#">About Us</a>
@@ -26,7 +26,7 @@
                     </ul>
                 </li>
                 <li class="nav-item btn-group">
-                    <a class="nav-link" href="#">Practice Areas</a>
+                    <a class="nav-link" href="{{route('frontend.practice_areas')}}">Practice Areas</a>
                     <button type="button" class="dropdown-toggle dropdown-toggle-split"
                         data-bs-toggle="dropdown">
                         <i class="bi bi-chevron-down"></i>
@@ -58,9 +58,6 @@
                     <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
-            <button type="button" class="nav-btn">
-                <i class="bi bi-list-nested"></i>
-            </button>
         </div>
     </div>
 </nav>

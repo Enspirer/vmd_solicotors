@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="{{url('css/main.css')}}">
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/730a86179f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/css/splide.min.css">
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -38,6 +40,7 @@
             @include('frontend.includes.nav')
             @include('includes.partials.messages')
             @yield('content')
+            @include('frontend.includes.footer')
         </div><!-- #app -->
 
         <!-- Scripts -->
