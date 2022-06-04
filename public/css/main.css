@@ -527,6 +527,7 @@ body p {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  margin-bottom: 1rem;
 }
 .pa-card-section .inner-wrapper .pa-card .content-block .card-link {
   text-decoration: none;
@@ -549,6 +550,12 @@ body p {
   -webkit-text-fill-color: #000;
 }
 
+@media screen and (max-width: 991px) {
+  .pa-card-section .inner-wrapper .pa-card {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+}
 .vmd-topNav {
   background-color: rgba(0, 0, 0, 0.85);
 }
