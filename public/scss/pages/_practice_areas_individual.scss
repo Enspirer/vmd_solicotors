@@ -1,0 +1,263 @@
+.pai-section {
+    padding: 10rem 0 5rem;
+
+    .header {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: $white;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        width: fit-content;
+        margin: 0 auto 3rem;
+
+        &::after {
+            content: '';
+            width: 40%;
+            height: 2px;
+            border-radius: 20px;
+            background-color: $light-teal;
+            position: absolute;
+            left: 50%;
+            bottom: -3%;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .content-block {
+        .title-block {
+            border-bottom: 1px solid #93928E;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+
+            .title {
+                font-size: 1.5rem;
+                font-weight: 300;
+                color: white;
+                margin-bottom: 0.25rem;
+
+                span {
+                    font-size: 1.1rem;
+                    font-weight: 300;
+                }
+            }
+
+            .date {
+                font-size: .8rem;
+                font-weight: 300;
+                color: $teal;
+            }
+        }
+
+        p {
+            font-size: .9rem;
+            font-weight: 200;
+            color: $white;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: $white;
+            margin: 2rem 0;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 2rem;
+
+            li {
+                margin-bottom: .75rem;
+                position: relative;
+                font-size: .9rem;
+                font-weight: 200;
+                color: $white;
+
+                .bi {
+                    position: absolute;
+                    left: -1.75rem;
+                    font-size: .7rem;
+                }
+            }
+        }
+
+        .navbar-nav {
+            width: fit-content;
+            margin-left: auto;
+            background-color: #091B1E;
+            border-radius: 5px;
+            overflow: hidden;
+
+            .nav-item {
+                margin: 0;
+
+                &:not(:nth-last-child(1)) {
+                    border-bottom: 1px solid #003F4A;
+                }
+
+                .nav-link {
+                    padding: .8rem 1.5rem .8rem 2rem;
+                    position: relative;
+
+                    &.nav-header {
+                        background-color: #0C858E;
+                        font-size: 1.25rem;
+                        font-weight: 400;
+                        color: $white;
+                    }
+
+                    &.active {
+                        @include overlay($light-teal, 0.2);
+
+                        &:before {
+                            content: '';
+                            width: 3px;
+                            height: 100%;
+                            @include overlay($light-teal, 0.7);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pai-cta-section {
+    padding: 7.5rem 0;
+    background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url('../../images/practice-areas/pai-cta-bg.png');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    .inner-wrapper {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+        .subtitle {
+            font-size: 1.5rem;
+            font-weight: 200;
+            color: $light-teal;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $white;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 200;
+            color: $white;
+            margin-bottom: 1rem;
+        }
+
+        .cta-text {
+            font-size: 1rem;
+            font-weight: 500;
+            color: $white;
+            margin-bottom: 3rem;
+        }
+
+        .cta-btn {
+            width: 200px;
+            padding: 1rem 2rem;
+        }
+    }
+}
+
+.contact-section {
+    padding: 7.5rem 0 10rem;
+    background: url('../../images/practice-areas/contact-bg.svg');
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size: 30%;
+
+    .header {
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 200;
+            color: $light-teal;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 300;
+            color: $white;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .contact-form {
+        .form-control {
+            border-radius: 0;
+            border: 1px solid transparent;
+            @include overlay($white, 0.1);
+            color: rgba($color: $white, $alpha: 0.8);
+            font-size: .8rem;
+            font-weight: 300;
+
+            &:focus {
+                box-shadow: none;
+                border: 1px solid $light-teal;
+            }
+        }
+
+        input {
+            height: 40px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .cta-btn {
+            margin-top: 2rem;
+        }
+
+        .inner-wrapper {
+            width: 90%;
+            margin-left: auto;
+
+            p {
+                font-size: .9rem;
+                font-weight: 200;
+                color: $white;
+                margin-bottom: 2rem;
+            }
+
+            .contacts {
+                padding: 0 0 0 3rem;
+                margin: 2rem 0;
+                list-style: none;
+
+                a {
+                    position: relative;
+                    font-size: .8rem;
+                    font-weight: 200;
+                    text-decoration: none;
+                    color: $white;
+                    display: block;
+                    margin-bottom: 1rem;
+
+                    .bi {
+                        font-size: 1rem;
+                        color: $white !important;
+                        font-style: normal !important;
+                        position: absolute;
+                        left: -2rem;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}

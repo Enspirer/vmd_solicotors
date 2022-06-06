@@ -10,4 +10,8 @@ class PracticeAreasController extends Controller
     public function index() {
         return view('frontend.practice_areas');
     }
+
+    public function practice_areas_individual() {
+        return view('frontend.practice_areas_individual');
+    }
 }

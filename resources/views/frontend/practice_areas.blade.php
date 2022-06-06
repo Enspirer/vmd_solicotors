@@ -41,7 +41,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="#" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.practice_areas_individual')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">01</div>
                 </div>
             </div>
