@@ -6,8 +6,20 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    &.home {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url('../../images/home/hero-banner.png');
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25));
+    }
+
+    video {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
     }
 
     &.practice-areas {
@@ -411,6 +423,7 @@
                 flex: 0 0 55%;
 
                 img {
+                    opacity: 0.7;
                     width: 100%;
                     object-fit: cover;
                     object-position: center;

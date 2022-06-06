@@ -5,6 +5,9 @@
 @section('content')
     
 <section class="home hero-section">
+    <video autoplay muted loop>
+        <source src="{{url('videos/london.mp4')}}" type="video/mp4">
+    </video>
     <div class="container">
         <div class="content-block">
             <div class="title-block">
@@ -58,7 +61,7 @@
     </div>
 </section>
 
-<!-- <section class="home-practice-area-section">
+<section class="home-practice-area-section">
     <div class="container">
         <div class="row g-0">
             <div class="col-lg-11">
@@ -99,7 +102,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="home-testimony-section">
     <div class="container">

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="103.918" viewBox="0 0 117 103.918">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #651013;
+      }
+
+      .cls-2 {
+        fill: #77171b;
+      }
+
+      .cls-3 {
+        fill: #470e10;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+      }
+    </style>
+  </defs>
+  <g id="Group_1273" data-name="Group 1273" transform="translate(-167 -21.541)">
+    <g id="Group_1270" data-name="Group 1270" transform="translate(183 21.541)">
+      <g id="Group_1269" data-name="Group 1269" transform="translate(0 0)">
+        <ellipse id="Ellipse_26" data-name="Ellipse 26" class="cls-1" cx="42.296" cy="42.297" rx="42.296" ry="42.297" transform="translate(0 0)"/>
+        <path id="Intersection_3" data-name="Intersection 3" class="cls-2" d="M0,27.156,24.528,0,37.791,14.96,7.9,46.38A42.083,42.083,0,0,1,0,27.156Z" transform="translate(0.418 21.112)"/>
+        <path id="Intersection_1" data-name="Intersection 1" class="cls-3" d="M0,14.96,13.263,0,38.431,27.865a42.266,42.266,0,0,1-9.387,17.626Z" transform="translate(44.907 24.953)"/>
+      </g>
+      <g id="Group_1271" data-name="Group 1271" transform="translate(18.135 14.508)">
+        <path id="Path_7907" data-name="Path 7907" class="cls-4" d="M-10865.846,9678.883l23.484,54.475h-23.484Z" transform="translate(10865.846 -9677.128)"/>
+        <path id="Path_7909" data-name="Path 7909" class="cls-4" d="M-10842.363,9678.883l-23.482,54.475h23.482Z" transform="translate(10890.35 -9677.128)"/>
+        <path id="Path_7908" data-name="Path 7908" class="cls-4" d="M-10858.375,9678.883h19.974v46Z" transform="translate(10860.917 -9678.883)"/>
+        <path id="Path_7910" data-name="Path 7910" class="cls-4" d="M-10838.4,9678.883h-19.974v46Z" transform="translate(10883.849 -9678.883)"/>
+      </g>
+    </g>
+    <text id="VMD_Solicitors" data-name="VMD Solicitors" class="cls-5" transform="translate(167 121.459)"><tspan x="0" y="0">VMD SOLICITORS</tspan></text>
+  </g>
+</svg>
