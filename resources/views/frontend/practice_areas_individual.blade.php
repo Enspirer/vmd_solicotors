@@ -52,7 +52,7 @@
     </div>
 </section>
 
-<section class="pai-cta-section">
+<section class="cta-section">
     <div class="container">
         <div class="inner-wrapper">
             <div class="subtitle">CONFIDENTIAL CONSULTATIONS</div>

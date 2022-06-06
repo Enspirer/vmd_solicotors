@@ -696,43 +696,43 @@ body p {
   left: 0;
 }
 
-.pai-cta-section {
+.cta-section {
   padding: 7.5rem 0;
   background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url("../../images/practice-areas/pai-cta-bg.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
 }
-.pai-cta-section .inner-wrapper {
+.cta-section .inner-wrapper {
   width: 80%;
   margin: auto;
   text-align: center;
 }
-.pai-cta-section .inner-wrapper .subtitle {
+.cta-section .inner-wrapper .subtitle {
   font-size: 1.5rem;
   font-weight: 200;
   color: #00FFFF;
 }
-.pai-cta-section .inner-wrapper .title {
+.cta-section .inner-wrapper .title {
   font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 1rem;
 }
-.pai-cta-section .inner-wrapper p {
+.cta-section .inner-wrapper p {
   font-size: 1rem;
   font-weight: 200;
   color: #fff;
   margin-bottom: 1rem;
 }
-.pai-cta-section .inner-wrapper .cta-text {
+.cta-section .inner-wrapper .cta-text {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
   margin-bottom: 3rem;
 }
-.pai-cta-section .inner-wrapper .cta-btn {
+.cta-section .inner-wrapper .cta-btn {
   width: 200px;
   padding: 1rem 2rem;
 }
