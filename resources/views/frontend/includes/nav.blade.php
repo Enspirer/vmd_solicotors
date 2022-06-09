@@ -13,7 +13,7 @@
                     <a class="nav-link active" href="{{route('frontend.index')}}">Home</a>
                 </li>
                 <li class="nav-item btn-group">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="{{route('frontend.about')}}">About Us</a>
                     <button type="button" class="dropdown-toggle dropdown-toggle-split"
                         data-bs-toggle="dropdown">
                         <i class="bi bi-chevron-down"></i>

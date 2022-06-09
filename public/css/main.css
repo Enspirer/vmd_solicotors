@@ -67,6 +67,9 @@ body p {
 .hero-section.practice-areas {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
 }
+.hero-section.about {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
+}
 .hero-section .content-block {
   position: absolute;
   max-width: 1100px;
@@ -808,6 +811,276 @@ body p {
   position: absolute;
   left: -2rem;
   top: 0;
+}
+
+.about-section {
+  padding: 5rem 0;
+}
+.about-section .inner-wrapper {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.about-section .inner-wrapper .subtitle {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #00FFFF;
+}
+.about-section .inner-wrapper .title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.about-section .inner-wrapper p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.about-section .inner-wrapper p:nth-last-child(1) {
+  margin-bottom: 2.5rem;
+}
+.about-section .feature-block {
+  background-color: #001E24;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.about-section .feature-block:hover {
+  background-color: #0C858E;
+}
+.about-section .feature-block .title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.about-section .feature-block p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+  flex: 1;
+}
+.about-section .feature-block .nav-link {
+  display: inline-block;
+  width: fit-content;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #00FFFF;
+  padding: 0;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.scroll-section {
+  padding: 5rem 0;
+  background-color: rgba(18, 34, 53, 0.75);
+}
+.scroll-section .inner-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.scroll-section .inner-wrapper .content-block {
+  flex: 1 1 100%;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 0 2rem;
+  scrollbar-color: #00FFFF rgba(255, 255, 255, 0.4);
+  scrollbar-width: thin;
+}
+.scroll-section .inner-wrapper .content-block::-webkit-scrollbar {
+  width: 4px;
+}
+.scroll-section .inner-wrapper .content-block::-webkit-scrollbar-thumb {
+  background: #00FFFF;
+}
+.scroll-section .inner-wrapper .content-block::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.4);
+}
+.scroll-section .inner-wrapper .content-block .title {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.scroll-section .inner-wrapper .content-block p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.scroll-section .inner-wrapper .image-block {
+  flex: 1 1 100%;
+  padding: 2rem;
+  position: relative;
+}
+.scroll-section .inner-wrapper .image-block img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.5);
+}
+.scroll-section .inner-wrapper .image-block .square {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  height: 30%;
+  background-color: #0C858E;
+  z-index: 0;
+}
+
+.team-section {
+  padding: 5rem 0;
+}
+.team-section .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-section .header .title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.team-section .header .title span {
+  font-size: 4rem;
+  margin-left: 5rem;
+}
+.team-section .header p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fff;
+  width: 35%;
+}
+.team-section .team-block {
+  padding: 10rem 0 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  max-width: 999px;
+  width: 100%;
+  margin: auto;
+}
+.team-section .team-block .team-card {
+  width: 250px;
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+}
+.team-section .team-block .team-card.mid-card {
+  margin-top: -10rem;
+}
+.team-section .team-block .team-card:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+.team-section .team-block .team-card:hover .image-block .social {
+  bottom: 10px;
+}
+.team-section .team-block .team-card .image-block {
+  position: relative;
+  overflow: hidden;
+}
+.team-section .team-block .team-card .image-block img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.team-section .team-block .team-card .image-block .social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: -3rem;
+  right: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.team-section .team-block .team-card .image-block .social .social-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.team-section .team-block .team-card .image-block .social .social-link:nth-child(1) {
+  background-color: #55ACEE;
+}
+.team-section .team-block .team-card .image-block .social .social-link:nth-child(2) {
+  background-color: #3B5998;
+}
+.team-section .team-block .team-card .image-block .social .social-link:nth-child(3) {
+  background-color: #0077B5;
+}
+.team-section .team-block .team-card .image-block .social .social-link i {
+  font-size: 1rem;
+  color: #fff;
+}
+.team-section .team-block .team-card .body {
+  background-color: white;
+  padding: 1rem;
+}
+.team-section .team-block .team-card .body .name {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.team-section .team-block .team-card .body .designation {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #0C858E;
+}
+
+.policy-section {
+  padding: 5rem 0;
+  background-color: rgba(18, 34, 53, 0.75);
+}
+.policy-section .inner-wrapper {
+  width: 80%;
+  margin-left: auto;
+}
+.policy-section .inner-wrapper .header {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.policy-section .inner-wrapper ul {
+  list-style: none;
+}
+.policy-section .inner-wrapper ul li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+}
+.policy-section .inner-wrapper ul li .bi {
+  position: absolute;
+  top: 3px;
+  left: -1.75rem;
+  font-size: 0.7rem;
 }
 
 .vmd-topNav {

@@ -95,7 +95,10 @@
                                 <textarea name="message" rows="8" class="form-control" placeholder="Your Message" required></textarea>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn-fill cta-btn">Send Message</button>
+                                <div class="g-recaptcha" data-callback="checked" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR" ></div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn-fill cta-btn form-submit-btn">Send Message</button>
                             </div>
                         </div>
                     </div>
@@ -152,6 +155,16 @@
     $("#close-btn").click(function () {
         $('#overlay').modal('hide');
     });
+</script>
+
+<script>
+    window.oncontextmenu = () => {
+        var captcha = grecaptcha.getResponse();
+    };
+
+    function checked() {
+        $('.form-submit-btn').removeAttr('disabled');
+    };
 </script>
 
 @endpush
