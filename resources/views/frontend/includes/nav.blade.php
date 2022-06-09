@@ -35,11 +35,11 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item" href="{{route('frontend.compliance')}}">Money Laundering</a></li>
-                        <li><a class="dropdown-item" href="#">Our complaints Procedures</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.compliance_2')}}">Our complaints Procedures</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our fee &amp; Payments</a>
+                    <a class="nav-link" href="{{route('frontend.fees')}}">Our fee &amp; Payments</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('frontend.contact')}}">Contact Us</a>

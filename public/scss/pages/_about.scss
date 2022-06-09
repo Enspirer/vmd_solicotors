@@ -93,13 +93,24 @@
         }
     }
 
+    &.tall {
+        background-color: transparent;
+
+        .inner-wrapper {
+            .content-block {
+                max-height: 700px;
+            }
+        }
+    }
+
     .inner-wrapper {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
 
         .content-block {
             flex: 1 1 100%;
-            height: 400px;
+            max-height: 400px;
             overflow-y: scroll;
             padding: 0 2rem;
 
