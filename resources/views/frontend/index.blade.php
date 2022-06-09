@@ -114,48 +114,59 @@
         <div class="splide testimonial-slider" id="testimonialSlider">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">
-                        <div class="slide">
-                            <img src="{{url('images/home/comma-sm.png')}}" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, error voluptate pariatur deserunt cupiditate aliquid esse quasi maiores. Similique ipsam hic, explicabo laborum et ad numquam veniam minus. Quas, corrupti.</p>
-                            <div class="profile-block">
-                                <div class="image-block">
-                                    <img src="{{url('images/home/dp.png')}}" alt="">
-                                </div>
-                                <div class="text-block">
-                                    <div class="name">Thushan Gunarathne</div>
-                                    <div class="star-rating">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                        <i class="bi bi-star"></i>
+
+
+                    @foreach($testimonials as $testimonial)
+                        <li class="splide__slide">
+                            <div class="slide">
+                                <img src="{{url('images/home/comma-sm.png')}}" alt="">
+                                <p>{{$testimonial->description}}</p>
+                                <div class="profile-block">
+                                    <div class="image-block">
+                                        <img src="{{uploaded_asset($testimonial->image)}}" alt="">
+                                    </div>
+                                    <div class="text-block">
+                                        <div class="name">{{$testimonial->name}}</div>
+                                        <div class="star-rating">
+                                            @if($testimonial->stars == '1 Star')
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            @elseif($testimonial->stars == '2 Stars')
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            @elseif($testimonial->stars == '3 Stars')
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            @elseif($testimonial->stars == '4 Stars')
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                            @elseif($testimonial->stars == '5 Stars')
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            @endif
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="slide">
-                            <img src="{{url('images/home/comma-sm.png')}}" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, error voluptate pariatur deserunt cupiditate aliquid esse quasi maiores. Similique ipsam hic, explicabo laborum et ad numquam veniam minus. Quas, corrupti.</p>
-                            <div class="profile-block">
-                                <div class="image-block">
-                                    <img src="{{url('images/home/dp.png')}}" alt="">
-                                </div>
-                                <div class="text-block">
-                                    <div class="name">Thushan Gunarathne</div>
-                                    <div class="star-rating">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                        <i class="bi bi-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                        </li>
+                    @endforeach
+
+
                 </ul>
             </div>
         </div>

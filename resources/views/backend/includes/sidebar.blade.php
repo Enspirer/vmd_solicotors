@@ -1,3 +1,33 @@
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .notification {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    }
+
+    .notification:hover {
+    background: red;
+    }
+
+    .notification .badge {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    }
+</style>
+
+
+
+
 <div class="sidebar">
     <nav class="sidebar-nav">
         <ul class="nav">
@@ -27,7 +57,8 @@
                     File Manager
                 </a>
             </li>
-
+          
+            
             @if(Module::has('Blog'))
                 @if(Module::find('Blog')->isStatus(1))
 
@@ -61,7 +92,19 @@
                 @endif
             @endif
 
+            <li class="nav-item">
+                <a class="nav-link {{active_class(Route::is('admin/testimonial'))}}" href="{{ route('admin.testimonial.index') }}">
+                    <i class="nav-icon fas fa-users"></i>
+                    Testimonial
+                </a>
+            </li>
 
+            <li class="nav-item">
+                <a class="nav-link {{active_class(Route::is('admin/contact_us'))}}" href="{{ route('admin.contact_us.index') }}">
+                    <i class="nav-icon fas fa-comments"></i>
+                    Contact Us <span class="notification badge">{{App\Models\ContactUs::where('status','Pending')->get()->count()}}</span>
+                </a>
+            </li>
 
             @if ($logged_in_user->isAdmin())
                 <li class="nav-title">
