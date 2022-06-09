@@ -14,7 +14,9 @@ use App\Http\Controllers\Frontend\User\ProfileController;
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
-Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
+Route::post('contact_us/store', [ContactController::class, 'store'])->name('contact_us.store');
+// Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
+
 Route::get('practice-areas', [PracticeAreasController::class, 'index'])->name('practice_areas');
 Route::get('practice-areas/individual', [PracticeAreasController::class, 'practice_areas_individual'])->name('practice_areas_individual');
 
