@@ -73,6 +73,26 @@
     padding: 5rem 0;
     @include overlay($blue, .75);
 
+    &.rtl {
+        .inner-wrapper {
+            flex-direction: row-reverse;
+
+            .content-block {
+                direction: rtl;
+
+                .wrapper {
+                    direction: ltr;
+                }
+            }
+
+            .image-block {
+                .square {
+                    left: 0;
+                }
+            }
+        }
+    }
+
     .inner-wrapper {
         display: flex;
         flex-direction: row;
@@ -100,19 +120,21 @@
                 background: rgba($color: $white, $alpha: 0.4);
             }
 
-            .title {
-                font-size: 2rem;
-                font-weight: 300;
-                text-transform: uppercase;
-                margin-bottom: 1rem;
-                color: $white;
-            }
+            .wrapper {
+                .title {
+                    font-size: 2rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                    color: $white;
+                }
 
-            p {
-                font-size: .9rem;
-                font-weight: 200;
-                color: $white;
-                margin-bottom: 1rem;
+                p {
+                    font-size: .9rem;
+                    font-weight: 200;
+                    color: $white;
+                    margin-bottom: 1rem;
+                }
             }
         }
 

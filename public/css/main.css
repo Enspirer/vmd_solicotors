@@ -73,6 +73,9 @@ body p {
 .hero-section.compliance {
   background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25)), url("../../images/compliance/hero-banner.png");
 }
+.hero-section.contact {
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25)), url("../../images/contact/hero-banner.png");
+}
 .hero-section .content-block {
   position: absolute;
   max-width: 1100px;
@@ -750,6 +753,10 @@ body p {
   background-repeat: repeat-x;
   background-size: 30%;
 }
+.contact-section.contact {
+  background: none;
+  padding: 5rem 0;
+}
 .contact-section .header .subtitle {
   font-size: 1.1rem;
   font-weight: 200;
@@ -761,6 +768,12 @@ body p {
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 2rem;
+}
+.contact-section .contact-form p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 1rem;
 }
 .contact-section .contact-form .form-control {
   border-radius: 0;
@@ -786,6 +799,23 @@ body p {
 .contact-section .contact-form .inner-wrapper {
   width: 90%;
   margin-left: auto;
+}
+.contact-section .contact-form .inner-wrapper .subtitle {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #00FFFF;
+  margin-bottom: 1rem;
+}
+.contact-section .contact-form .inner-wrapper .title {
+  font-size: 4rem;
+  font-weight: 200;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.contact-section .contact-form .inner-wrapper .title span {
+  font-weight: 500;
 }
 .contact-section .contact-form .inner-wrapper p {
   font-size: 0.9rem;
@@ -814,6 +844,27 @@ body p {
   position: absolute;
   left: -2rem;
   top: 0;
+}
+.contact-section .contact-form .inner-wrapper .social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.contact-section .contact-form .inner-wrapper .social-media a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  line-height: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 .about-section {
@@ -1112,6 +1163,10 @@ body p {
   font-weight: 300;
   text-transform: uppercase;
   color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 .vmd-topNav .navbar-nav .nav-link.active {
   color: #00FFFF;
