@@ -39,7 +39,7 @@
                     </ul>
                 </li>
                 <li class="nav-item btn-group">
-                    <a class="nav-link" href="#">Compliance</a>
+                    <a class="nav-link" href="{{route('frontend.compliance')}}">Compliance</a>
                     <button type="button" class="dropdown-toggle dropdown-toggle-split"
                         data-bs-toggle="dropdown">
                         <i class="bi bi-chevron-down"></i>

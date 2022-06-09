@@ -5,6 +5,7 @@ use App\Http\Controllers\Frontend\AizUploadController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PracticeAreasController;
 use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\ComplianceController;
 use App\Http\Controllers\Frontend\User\AccountController;
 use App\Http\Controllers\Frontend\User\DashboardController;
 use App\Http\Controllers\Frontend\User\ProfileController;
@@ -21,6 +22,7 @@ Route::post('contact_us/store', [ContactController::class, 'store'])->name('cont
 Route::get('practice-areas', [PracticeAreasController::class, 'index'])->name('practice_areas');
 Route::get('practice-areas/individual', [PracticeAreasController::class, 'practice_areas_individual'])->name('practice_areas_individual');
 Route::get('about-us', [AboutController::class, 'index'])->name('about');
+Route::get('compliance', [ComplianceController::class, 'index'])->name('compliance');
 
 Route::post('/aiz-uploader', [AizUploadController::class, 'show_uploader']);
 Route::post('/aiz-uploader/upload', [AizUploadController::class, 'upload']);
