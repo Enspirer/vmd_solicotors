@@ -35,4 +35,22 @@ Breadcrumbs::for('admin.contactus_thanks', function ($trail) {
     $trail->push('Contact Us Thanks Email', route('admin.contactus_thanks'));
 });
 
+Breadcrumbs::for('admin.contact_us.index', function ($trail) {
+    $trail->push('Contact Us', route('admin.contact_us.index'));
+});
+Breadcrumbs::for('admin.contact_us.edit', function ($trail) {
+    $trail->push('Status', route('admin.contact_us.edit',1));
+});
+
+
+Breadcrumbs::for('admin.testimonial.index', function ($trail) {
+    $trail->push('Testimonial', route('admin.testimonial.index'));
+});
+Breadcrumbs::for('admin.testimonial.create', function ($trail) {
+    $trail->push('Create Testimonial', route('admin.testimonial.create'));
+});
+Breadcrumbs::for('admin.testimonial.edit', function ($trail) {
+    $trail->push('Edit Testimonial', route('admin.testimonial.edit',1));
+});
+
 

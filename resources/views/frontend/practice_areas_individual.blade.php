@@ -70,44 +70,88 @@
             <div class="subtitle">Contact us</div>
             <div class="title">Let’s Work Together</div>
         </div>
-        <div class="contact-form">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row g-3">
-                        <div class="col-12">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name*">
+        <div class="contact-form">            
+            <form action="{{route('frontend.contact_us.store')}}" method="post" enctype="multipart/form-data">
+            {{csrf_field()}}
+                <div class="row">
+
+                    @if(session()->has('error'))
+                        <div class="alert alert-danger">
+                            {{ session()->get('error') }}
                         </div>
-                        <div class="col-md-6">
-                            <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                    @endif
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name*" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email*" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" name="phone_number" class="form-control" placeholder="Your Phone Number*" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" rows="8" class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn-fill cta-btn">Send Message</button>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <input type="tel" name="phone" class="form-control" placeholder="Your Phone Number*">
-                        </div>
-                        <div class="col-12">
-                            <textarea name="message" rows="8" class="form-control" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn-fill cta-btn">Send Message</button>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="inner-wrapper">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
+                            <ul class="contacts">
+                                <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Solar House 915 High Road. North Finchley, <br>London N12 8QJ</a></li>
+                                <li><a href="tel:02085148703"><i class="bi bi-telephone-fill"></i>0208 514 8703</a></li>
+                                <li><a href="mailto:info@vmdsolicitors.co.uk" class="light-teal"><i class="bi">@</i>info@vmdsolicitors.co.uk</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="inner-wrapper">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
-                        <ul class="contacts">
-                            <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Solar House 915 High Road. North Finchley, <br>London N12 8QJ</a></li>
-                            <li><a href="tel:02085148703"><i class="bi bi-telephone-fill"></i>0208 514 8703</a></li>
-                            <li><a href="mailto:info@vmdsolicitors.co.uk" class="light-teal"><i class="bi">@</i>info@vmdsolicitors.co.uk</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </section>
 
+
+@if(\Session::has('success'))
+
+<div class="modal fade form-submit-modal" id="overlay" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog" style="width: 90%; max-width: 600px; margin: 0; top: 50%; left: 50%; transform: translate(-50%, -50%) !important;">
+        <div class="modal-content" style="background: linear-gradient(60deg, #E4F2FB, #9ACDFF); border: 2px solid #0C75FF; border-radius: 15px;">
+            <div class="modal-body" style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 30px;">
+                <i class="bi bi-x-lg" data-bs-dismiss="modal" style="position: absolute; top: -15px; right: -15px; color: #fff; font-size: 16px; background-color: rgba(255, 255, 255, 0.5); width: 35px; height: 35px; border-radius: 50%; display: flex; flex-direction: row; justify-content: center; align-items: center; backdrop-filter: blur(5px);"></i>
+                <div class="image-block">
+                    <img src="{{url('images/success.png')}}" alt="">
+                </div>
+                <div class="content-block">
+                    <div class="title" style="font-size: 40px; color: #0C75FF; font-weight: 400; margin-bottom: 10px;">Success !</div>
+                    <p class="text" style="font-size: 16px; ont-weight 300; margin: 0; color: #333;">Your message submitted successfully.</p>
+                    <p class="text" style="font-size: 16px; ont-weight 300; margin: 0; color: #333;">One of our agents will be in touch shortly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endif
+
+
+
 @endsection
 
 @push('after-scripts')
+
+<script>
+    $(window).on('load', function () {
+        $('#overlay').modal('show');
+    });
+    $("#close-btn").click(function () {
+        $('#overlay').modal('hide');
+    });
+</script>
 
 @endpush
