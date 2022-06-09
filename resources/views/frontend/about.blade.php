@@ -61,15 +61,17 @@
     <div class="container">
         <div class="inner-wrapper">
             <div class="content-block">
-                <div class="title">How to instruct us?</div>
-                <p>We take instructions across the practice areas in which we serve.</p>
-                <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                <div class="wrapper">
+                    <div class="title">How to instruct us?</div>
+                    <p>We take instructions across the practice areas in which we serve.</p>
+                    <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                </div>
             </div>
             <div class="image-block">
                 <img src="{{url('images/about/scroll-img.png')}}" alt="">
@@ -220,18 +222,20 @@
     <div class="container">
         <div class="inner-wrapper">
             <div class="content-block">
-                <div class="title">How to instruct us?</div>
-                <p>We take instructions across the practice areas in which we serve.</p>
-                <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                <div class="wrapper">
+                    <div class="title">How to instruct us?</div>
+                    <p>We take instructions across the practice areas in which we serve.</p>
+                    <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                </div>
             </div>
             <div class="image-block">
-                <img src="{{url('images/about/scroll-img-2.png')}}" alt="">
+                <img src="{{url('images/about/scroll-img.png')}}" alt="">
                 <div class="square"></div>
             </div>
         </div>

@@ -46,9 +46,9 @@ body p {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-position: bottom center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: bottom center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 .hero-section .overlay {
   width: 100%;
@@ -56,7 +56,7 @@ body p {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25));
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25));
 }
 .hero-section video {
   width: 100%;
@@ -65,10 +65,13 @@ body p {
   object-position: center;
 }
 .hero-section.practice-areas {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
 }
 .hero-section.about {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25)), url("../../images/practice-areas/hero-banner.png");
+}
+.hero-section.compliance {
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.25)), url("../../images/compliance/hero-banner.png");
 }
 .hero-section .content-block {
   position: absolute;
@@ -878,6 +881,18 @@ body p {
   padding: 5rem 0;
   background-color: rgba(18, 34, 53, 0.75);
 }
+.scroll-section.rtl .inner-wrapper {
+  flex-direction: row-reverse;
+}
+.scroll-section.rtl .inner-wrapper .content-block {
+  direction: rtl;
+}
+.scroll-section.rtl .inner-wrapper .content-block .wrapper {
+  direction: ltr;
+}
+.scroll-section.rtl .inner-wrapper .image-block .square {
+  left: 0;
+}
 .scroll-section .inner-wrapper {
   display: flex;
   flex-direction: row;
@@ -899,14 +914,14 @@ body p {
 .scroll-section .inner-wrapper .content-block::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.4);
 }
-.scroll-section .inner-wrapper .content-block .title {
+.scroll-section .inner-wrapper .content-block .wrapper .title {
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 1rem;
   color: #fff;
 }
-.scroll-section .inner-wrapper .content-block p {
+.scroll-section .inner-wrapper .content-block .wrapper p {
   font-size: 0.9rem;
   font-weight: 200;
   color: #fff;
