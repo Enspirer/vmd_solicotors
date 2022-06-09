@@ -104,6 +104,7 @@
     </div>
 </section>
 
+@if(count($testimonials) != 0)
 <section class="home-testimony-section">
     <div class="container">
         <div class="header">
@@ -114,8 +115,6 @@
         <div class="splide testimonial-slider" id="testimonialSlider">
             <div class="splide__track">
                 <ul class="splide__list">
-
-
                     @foreach($testimonials as $testimonial)
                         <li class="splide__slide">
                             <div class="slide">
@@ -172,7 +171,10 @@
         </div>
     </div>
 </section>
+@endif
 
+
+@if(count($posts) != 0)
 <section class="home-insight-section">
     <div class="container">
         <div class="header">
@@ -185,70 +187,65 @@
         <div class="splide insight-slider" id="insightSlider">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">
-                        <div class="slide">
-                            <div class="image-block">
-                                <img src="{{url('images/home/insight-slide-1.png')}}" alt="">
+
+                    @foreach($posts as $post)
+                        <li class="splide__slide">
+                            <div class="slide">
+                                <div class="image-block">
+                                    <img src="{{uploaded_asset($post->feature_image)}}" alt="">
+                                </div>
+                                <div class="content-block">
+                                    <div class="subtitle">Report</div>
+                                    <div class="title">{{$post->title}}</div>
+                                    <p>{!!$post->description!!}</p>
+                                </div>
                             </div>
-                            <div class="content-block">
-                                <div class="subtitle">Report</div>
-                                <div class="title">What Do the Day <br>About VMD?</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem error animi! Voluptatibus alias non minus molestiae, dolore nulla dicta, illum accusamus fuga perspiciatis necessitatibus iusto? Perferendis saepe at alias!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="slide">
-                            <div class="image-block">
-                                <img src="{{url('images/home/insight-slide-2.png')}}" alt="">
-                            </div>
-                            <div class="content-block">
-                                <div class="subtitle">Report</div>
-                                <div class="title">What Do the Day <br>About VMD?</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem error animi! Voluptatibus alias non minus molestiae, dolore nulla dicta, illum accusamus fuga perspiciatis necessitatibus iusto? Perferendis saepe at alias!</p>
-                            </div>
-                        </div>
-                    </li>
+                        </li>
+                    @endforeach
+                    
                 </ul>
             </div>
         </div>
     </div>
 </section>
+@endif
+
+
 
 @endsection
 
 @push('after-scripts')
 
 <script>
+    var testimonialSlider = new Splide( '#testimonialSlider', {
+    type   : 'loop',
+    fixedWidth: '600px',
+    gap: '2rem',
+    arrows: false,
+    breakpoints: {
+            991: {
+                fixedWidth: '300px',
+            },
+    },
+    } );
+    testimonialSlider.mount();
+</script>
 
-var testimonialSlider = new Splide( '#testimonialSlider', {
-  type   : 'loop',
-  fixedWidth: '600px',
-  gap: '2rem',
-  arrows: false,
-  breakpoints: {
-		991: {
-			fixedWidth: '300px',
-		},
-  },
-} );
+<script>
+    var insightSlider = new Splide( '#insightSlider', {
+    type   : 'loop',
+    fixedWidth: '800px',
+    gap: '2rem',
+    arrows: false,
+    pagination: false,
+    breakpoints: {
+            991: {
+                fixedWidth: '300px',
+            },
+    },
+    } );
 
-testimonialSlider.mount();
-
-var insightSlider = new Splide( '#insightSlider', {
-  type   : 'loop',
-  fixedWidth: '800px',
-  gap: '2rem',
-  arrows: false,
-  pagination: false,
-  breakpoints: {
-		991: {
-			fixedWidth: '300px',
-		},
-  },
-} );
-
-insightSlider.mount();
+    insightSlider.mount();
 </script>
 
 @endpush

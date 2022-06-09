@@ -41,8 +41,26 @@ class NewsController extends Controller
                     }
                     
                     return $button;
-                })                    
-                ->rawColumns(['action'])
+                })                
+                ->addColumn('status', function($data){
+                    if($data->status == 'Enabled'){
+                        $status = '<span class="badge badge-success">Enabled</span>';
+                    }
+                    else{
+                        $status = '<span class="badge badge-danger">Disabled</span>';
+                    }   
+                    return $status;
+                })
+                ->addColumn('featured', function($data){
+                    if($data->featured == 'Enabled'){
+                        $featured = '<span class="badge badge-success">Enabled</span>';
+                    }
+                    else{
+                        $featured = '<span class="badge badge-danger">Disabled</span>';
+                    }   
+                    return $featured;
+                })    
+                ->rawColumns(['action','featured','status'])
                 ->make(true);
         }
         return back();
@@ -80,11 +98,11 @@ class NewsController extends Controller
 
                 $add->title=$request->title; 
                 $add->description=$request->description;        
-                $add->category=$request->category;        
                 $add->slug=$request->slug;        
                 $add->feature_image=$request->feature_image;
                 $add->order=$request->order;
                 $add->status=$request->status;
+                $add->featured=$request->featured;
                 $add->save();
 
                 return redirect()->route('admin.post.index')->withFlashSuccess('Added Successfully');  
@@ -139,12 +157,12 @@ class NewsController extends Controller
                 $update = new Post;
 
                 $update->title=$request->title; 
-                $update->description=$request->description;        
-                $update->category=$request->category;        
+                $update->description=$request->description;     
                 $update->slug=$request->slug;        
                 $update->feature_image=$request->feature_image;
                 $update->order=$request->order;
                 $update->status=$request->status;
+                $update->featured=$request->featured;
 
                 Post::whereId($request->hidden_id)->update($update->toArray());
 

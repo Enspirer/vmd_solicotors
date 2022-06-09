@@ -70,34 +70,6 @@
 
     </form>
 
-    <script>
-        function yesnoCheck(that) {
-            if (that.value == 'article') {
-                document.getElementById("article").style.display = "block";
-            } else {
-                document.getElementById("article").style.display = "none";
-            }
-            if (that.value == 'youtube') {
-                document.getElementById("youtube").style.display = "block";
-            } else {
-                document.getElementById("youtube").style.display = "none";
-            }
-        }
-    </script> 
-    <script>
-        ClassicEditor
-            .create( document.querySelector( '#editor' ), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-            } )
-            .then( editor => {
-                window.editor = editor;
-            } )
-            .catch( err => {
-                console.error( err.stack );
-            } );
-    </script>
-
-
 
 <br><br>
 

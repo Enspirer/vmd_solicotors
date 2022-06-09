@@ -25,15 +25,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Category <span style="color:red">*<span></label>
-                            <select class="form-control" name="category" required>
-                                @foreach($categories as $category)
-                                    <option value="{{ $category->id }}" {{ $post->category == $category->id ? "selected" : ""}}>{{ $category->name }}</option>                    
-                                @endforeach             
-                            </select>
-                        </div>
-
-                        <div class="form-group">
                             <label>Description <span style="color:red">*</span></label>
                             <textarea class="form-control" id="editor" name="description" rows="4">{!! $post->description !!}</textarea>
                         </div>
@@ -61,6 +52,24 @@
                             </select>
                         </div>
 
+                        @if(count(Modules\Blog\Entities\Post::where('featured','Enabled')->get()) < 5 )
+                            <div class="form-group">
+                                <label>Featured <span style="color:red">*<span></label>
+                                <select class="form-control" name="featured" required>
+                                    <option value="Enabled" {{ $post->featured == 'Enabled' ? "selected" : "" }}>Enable</option>   
+                                    <option value="Disabled" {{ $post->featured == 'Disabled' ? "selected" : "" }}>Disable</option>                                
+                                </select>
+                            </div>
+                        @else
+                            <div class="form-group">
+                                <label>Featured <span style="color:red">*<span></label>
+                                <select class="form-control" name="featured" required>
+                                    <option value="Enabled" {{ $post->featured == 'Enabled' ? "selected" : "" }} disabled>Enable</option>   
+                                    <option value="Disabled" {{ $post->featured == 'Disabled' ? "selected" : "" }}>Disable</option>                                
+                                </select>
+                            </div>
+                        @endif
+
                         <div class="form-group">
                             <label>Order <span style="color:red">*<span></label>
                             <input type="number" class="form-control" value="{{ $post->order }}" name="order" required>
@@ -68,9 +77,13 @@
                         
                     </div>
                 </div>
-                <input type="hidden" name="hidden_id" value="{{ $post->id }}"/>
-                <a href="{{route('admin.post.index')}}" class="btn btn-info pull-right ml-4">Back</a>&nbsp;&nbsp;
-                <button type="submit" class="btn btn-success pull-right">Update</button><br>
+
+                <div class="mt-5 text-right">
+                    <input type="hidden" name="hidden_id" value="{{ $post->id }}"/>
+                    <a href="{{route('admin.post.index')}}" type="button" class="btn rounded-pill text-light px-4 py-2 me-2 btn-primary">Back</a>
+                    <input type="submit" class="btn rounded-pill text-light px-4 py-2 ms-2 btn-success" value="Update" />
+                </div>
+                
             </div><br>
             
             

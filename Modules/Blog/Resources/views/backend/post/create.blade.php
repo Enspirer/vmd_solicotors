@@ -26,15 +26,6 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Category <span style="color:red">*<span></label>
-                            <select class="form-control" name="category" required>
-                                @foreach($categories as $category)
-                                    <option value="{{ $category->id }}">{{ $category->name }}</option>                    
-                                @endforeach             
-                            </select>
-                        </div>
-
-                        <div class="form-group">
                             <label>Description <span style="color:red">*</span></label>
                             <textarea class="form-control" id="editor" name="description" rows="4"></textarea>
                         </div>
@@ -52,6 +43,24 @@
                             </div>
                         </div> 
 
+                        @if(count(Modules\Blog\Entities\Post::where('featured','Enabled')->get()) < 5 )
+                            <div class="form-group">
+                                <label>Featured <span style="color:red">*<span></label>
+                                <select class="form-control" name="featured" required>
+                                    <option value="Enabled">Enable</option>   
+                                    <option value="Disabled" selected>Disable</option>                                
+                                </select>
+                            </div>
+                        @else
+                            <div class="form-group">
+                                <label>Featured <span style="color:red">*<span></label>
+                                <select class="form-control" name="featured" required>
+                                    <option value="Enabled" disabled>Enable</option>   
+                                    <option value="Disabled">Disable</option>                                
+                                </select>
+                            </div>
+                        @endif
+
                         <div class="form-group">
                             <label>Status <span style="color:red">*<span></label>
                             <select class="form-control" name="status" required>
@@ -67,7 +76,9 @@
                         
                     </div>
                 </div>
-                <input type="submit" class="btn btn-success pull-right" value="Create New" /><br>
+                <div class="mt-5 text-right">
+                    <input type="submit" class="btn rounded-pill text-light px-4 py-2 ms-2 btn-success" value="Submit" />
+                </div>
             </div><br>       
             
         </div>

@@ -61,36 +61,24 @@
             
             @if(Module::has('Blog'))
                 @if(Module::find('Blog')->isStatus(1))
-
-                    <li class="nav-item nav-dropdown ">
-                        <a class="nav-link nav-dropdown-toggle " href="#">
+                    @if(auth()->user()->can('view blog posts'))
+                        <li class="nav-item">
+                            <a class="nav-link {{active_class(Route::is('admin/post'))}}" href="{{ route('admin.post.index') }}">                            
                             <i class="nav-icon fas fa-newspaper"></i>
-                            Blog
-                        </a>
-
-                        <ul class="nav-dropdown-items">
-
-                            @if(auth()->user()->can('view blog category'))
-                                <li class="nav-item">
-                                    <a class="nav-link {{active_class(Route::is('admin/category'))}}" href="{{ route('admin.category.index') }}">                            
-                                        Category
-                                    </a>
-                                </li>  
-                            @endif
-
-                            @if(auth()->user()->can('view blog posts'))
-                                <li class="nav-item">
-                                    <a class="nav-link {{active_class(Route::is('admin/post'))}}" href="{{ route('admin.post.index') }}">                            
-                                        Post
-                                    </a>
-                                </li>  
-                            @endif
-
-                        </ul>
-                    </li>  
-
+                                Post
+                            </a>
+                        </li>  
+                    @endif
                 @endif
             @endif
+
+                <!-- @if(auth()->user()->can('view blog category'))
+                        <li class="nav-item">
+                            <a class="nav-link {{active_class(Route::is('admin/category'))}}" href="{{ route('admin.category.index') }}">                            
+                                Category
+                            </a>
+                        </li>  
+                    @endif -->
 
             <li class="nav-item">
                 <a class="nav-link {{active_class(Route::is('admin/testimonial'))}}" href="{{ route('admin.testimonial.index') }}">
