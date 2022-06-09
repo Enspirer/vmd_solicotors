@@ -12,18 +12,8 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="{{route('frontend.index')}}">Home</a>
                 </li>
-                <li class="nav-item btn-group">
-                    <a class="nav-link" href="{{route('frontend.about')}}">About Us</a>
-                    <button type="button" class="dropdown-toggle dropdown-toggle-split"
-                        data-bs-toggle="dropdown">
-                        <i class="bi bi-chevron-down"></i>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link " href="{{route('frontend.about')}}">About Us</a>
                 </li>
                 <li class="nav-item btn-group">
                     <a class="nav-link" href="{{route('frontend.practice_areas')}}">Practice Areas</a>
@@ -38,24 +28,21 @@
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
                 </li>
-                <li class="nav-item btn-group">
-                    <a class="nav-link" href="#">Compliance</a>
-                    <button type="button" class="dropdown-toggle dropdown-toggle-split"
-                        data-bs-toggle="dropdown">
-                        <i class="bi bi-chevron-down"></i>
-                    </button>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Compliance 
+                        <i class="bi bi-chevron-down"></i>                       
+                    </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.compliance')}}">Money Laundering</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.compliance_2')}}">Our complaints Procedures</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our fee &amp; Payments</a>
+                    <a class="nav-link" href="{{route('frontend.fees')}}">Our fee &amp; Payments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="{{route('frontend.contact')}}">Contact Us</a>
                 </li>
             </ul>
         </div>

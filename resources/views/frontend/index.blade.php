@@ -5,6 +5,7 @@
 @section('content')
     
 <section class="home hero-section">
+    <div class="overlay"></div>
     <video autoplay muted loop>
         <source src="{{url('videos/london.mp4')}}" type="video/mp4">
     </video>

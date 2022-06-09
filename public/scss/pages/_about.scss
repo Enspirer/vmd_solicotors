@@ -73,13 +73,44 @@
     padding: 5rem 0;
     @include overlay($blue, .75);
 
+    &.rtl {
+        .inner-wrapper {
+            flex-direction: row-reverse;
+
+            .content-block {
+                direction: rtl;
+
+                .wrapper {
+                    direction: ltr;
+                }
+            }
+
+            .image-block {
+                .square {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &.tall {
+        background-color: transparent;
+
+        .inner-wrapper {
+            .content-block {
+                max-height: 700px;
+            }
+        }
+    }
+
     .inner-wrapper {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
 
         .content-block {
             flex: 1 1 100%;
-            height: 400px;
+            max-height: 400px;
             overflow-y: scroll;
             padding: 0 2rem;
 
@@ -100,19 +131,21 @@
                 background: rgba($color: $white, $alpha: 0.4);
             }
 
-            .title {
-                font-size: 2rem;
-                font-weight: 300;
-                text-transform: uppercase;
-                margin-bottom: 1rem;
-                color: $white;
-            }
+            .wrapper {
+                .title {
+                    font-size: 2rem;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                    color: $white;
+                }
 
-            p {
-                font-size: .9rem;
-                font-weight: 200;
-                color: $white;
-                margin-bottom: 1rem;
+                p {
+                    font-size: .9rem;
+                    font-weight: 200;
+                    color: $white;
+                    margin-bottom: 1rem;
+                }
             }
         }
 
