@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
+use App\Models\Testimonial;
 
 use App\Http\Controllers\Controller;
 
@@ -14,6 +15,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.index');
+        $testimonials = Testimonial::where('status','Enabled')->orderBy('order','desc')->get(); 
+
+        return view('frontend.index',[
+            'testimonials' => $testimonials
+        ]);
     }
 }
