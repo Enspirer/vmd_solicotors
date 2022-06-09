@@ -1,0 +1,46 @@
+.map-section {
+    padding: 5rem 0;
+    position: relative;
+
+    .map-container {
+        overflow: hidden;
+        padding-bottom: 27.25%;
+        position: relative;
+        height: 0;
+
+        iframe {
+            left: 0;
+            top: 0;
+            height: 500px;
+            width: 100%;
+            position: absolute;
+        }
+    }
+
+    .content-block {
+        background-color: $white;
+        border-radius: 10px;
+        padding: 2rem;
+        width: 400px;
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translate(0, -52%);
+        box-shadow: 2px 2px 8px rgba($color: $black, $alpha: 0.2);
+
+        .title {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: $text-black;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: .9rem;
+            font-weight: 300;
+            color: $text-black;
+            margin-bottom: 1rem;
+        }
+    }
+}
