@@ -73,7 +73,7 @@
         <div class="contact-form">            
             <form action="{{route('frontend.contact_us.store')}}" method="post" enctype="multipart/form-data">
             {{csrf_field()}}
-                <div class="row">
+                <div class="row g-lg-0 g-5">
 
                     @if(session()->has('error'))
                         <div class="alert alert-danger">

@@ -881,6 +881,12 @@ body p {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 991px) {
+  .contact-section .contact-form .inner-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}
 .about-section {
   padding: 5rem 0;
 }
@@ -1170,15 +1176,41 @@ body p {
   font-size: 0.7rem;
 }
 
+@media screen and (max-width: 991px) {
+  .scroll-section .inner-wrapper {
+    flex-direction: column-reverse !important;
+    gap: 3rem;
+  }
+
+  .team-section .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .team-section .header .title span {
+    margin: 0;
+  }
+  .team-section .header p {
+    width: 80%;
+  }
+  .team-section .team-block {
+    padding: 5rem 0;
+  }
+  .team-section .team-block .team-card.mid-card {
+    margin: 0;
+  }
+
+  .policy-section .inner-wrapper {
+    width: 100%;
+  }
+}
 .map-section {
   padding: 5rem 0;
   position: relative;
 }
 .map-section .map-container {
   overflow: hidden;
-  padding-bottom: 27.25%;
   position: relative;
-  height: 0;
+  height: 490px;
 }
 .map-section .map-container iframe {
   left: 0;
@@ -1197,7 +1229,7 @@ body p {
   position: absolute;
   top: 50%;
   right: 10%;
-  transform: translate(0, -52%);
+  transform: translate(0, -50%);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 .map-section .content-block .title {
@@ -1213,6 +1245,25 @@ body p {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 1199px) {
+  .map-section .content-block {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    position: relative;
+    top: unset;
+    right: unset;
+    transform: unset;
+    box-shadow: none;
+  }
+  .map-section .content-block .title,
+.map-section .content-block p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
 .vmd-topNav {
   background-color: rgba(0, 0, 0, 0.85);
 }
@@ -1332,7 +1383,6 @@ body p {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  position: relative;
   overflow: hidden;
   background-color: #001E24;
   padding: 2rem;

@@ -350,3 +350,45 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    .scroll-section {
+        .inner-wrapper {
+            flex-direction: column-reverse !important;
+            gap: 3rem;
+        }
+    }
+
+    .team-section {
+        .header {
+            flex-direction: column;
+            text-align: center;
+
+            .title {
+                span {
+                    margin: 0;
+                }
+            }
+
+            p {
+                width: 80%;
+            }
+        }
+
+        .team-block {
+            padding: 5rem 0;
+
+            .team-card {
+                &.mid-card {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .policy-section {
+        .inner-wrapper {
+            width: 100%;
+        }
+    }
+}

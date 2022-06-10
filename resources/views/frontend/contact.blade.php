@@ -24,7 +24,7 @@
         <div class="contact-form">            
             <form action="{{route('frontend.contact_us.store')}}" method="post" enctype="multipart/form-data">
                 {{csrf_field()}}
-                <div class="row flex-row-reverse">
+                <div class="row flex-lg-row-reverse flex-column-reverse g-lg-0 g-5">
 
                     @if(session()->has('error'))
                         <div class="alert alert-danger">

@@ -170,7 +170,6 @@
 </section>
 @endif
 
-
 @if(count($posts) != 0)
 <section class="home-insight-section">
     <div class="container">
@@ -207,8 +206,6 @@
 </section>
 @endif
 
-
-
 @endsection
 
 @push('after-scripts')
@@ -243,6 +240,10 @@
     } );
 
     insightSlider.mount();
+</script>
+
+<script>
+
 </script>
 
 @endpush

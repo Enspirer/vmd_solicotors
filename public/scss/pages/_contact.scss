@@ -4,9 +4,8 @@
 
     .map-container {
         overflow: hidden;
-        padding-bottom: 27.25%;
         position: relative;
-        height: 0;
+        height: 490px;
 
         iframe {
             left: 0;
@@ -27,7 +26,7 @@
         position: absolute;
         top: 50%;
         right: 10%;
-        transform: translate(0, -52%);
+        transform: translate(0, -50%);
         box-shadow: 2px 2px 8px rgba($color: $black, $alpha: 0.2);
 
         .title {
@@ -42,6 +41,29 @@
             font-weight: 300;
             color: $text-black;
             margin-bottom: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .map-section {
+        .content-block {
+            background-color: transparent;
+            border-radius: 0;
+            padding: 2rem;
+            width: 90%;
+            margin: auto;
+            height: auto;
+            position: relative;
+            top: unset;
+            right: unset;
+            transform: unset;
+            box-shadow: none;
+
+            .title,
+            p {
+                color: rgba($color: $white, $alpha: 0.5);
+            }
         }
     }
 }

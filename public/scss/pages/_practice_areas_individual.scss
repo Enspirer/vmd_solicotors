@@ -322,3 +322,14 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    .contact-section {
+        .contact-form {
+            .inner-wrapper {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}
