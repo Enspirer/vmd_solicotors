@@ -154,13 +154,13 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="card-box" style="background-color: #92967d; border-radius: 15px 15px 15px 15px;">
                     <div class="inner">
-                        <h3>Lorem</h3>
-                        <p>Lorem Ipsum</p>
+                        <h3>{{$contacts}}</h3>
+                        <p>Contact Us</p>
                     </div>
                     <div class="icon">
-                        <i class="fas fa-building mb-4 mr-2"></i>
+                        <i class="fas fa-comments mb-4 mr-2"></i>
                     </div>
-                    <a href="" class="card-box-footer" style="border-radius: 0px 0px 15px 15px;">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="{{url('admin/contact_us')}}" class="card-box-footer" style="border-radius: 0px 0px 15px 15px;">View More <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
         </div>
