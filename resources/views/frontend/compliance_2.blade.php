@@ -14,11 +14,7 @@
             <div class="text-block">Money Laundering Risk Assessment and Our complaints procedures</div>
         </div>
         <div class="scroll-btn">
-            <div class="inner-wrapper">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+            <div class="dot"></div>
         </div>
     </div>
 </section>
