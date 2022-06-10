@@ -14,11 +14,7 @@
             <div class="text-block">We provide the best solution for each client to make every business decision, and satisfaction is the main thing.</div>
         </div>
         <div class="scroll-btn">
-            <div class="inner-wrapper">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+            <div class="dot"></div>
         </div>
     </div>
 </section>
@@ -96,18 +92,5 @@
 @endsection
 
 @push('after-scripts')
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAIwTPctnSM2PWcbK6cMdlZaSgEYIKp5U&callback&callback=initMap"></script> -->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAIwTPctnSM2PWcbK6cMdlZaSgEYIKp5U&callback=initMap" async defer></script>
 
-    <script>
-    function initMap() {
-        var mapOptions = {
-            center: new google.maps.Latlng(51.5, -0.12),
-            zoom: 6,
-        }
-    }
-
-    var map = new google.maps.Map(document.getElementById("gMap"), mapOptions)
-    </script> -->
 @endpush

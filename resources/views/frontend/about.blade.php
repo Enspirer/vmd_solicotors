@@ -14,11 +14,7 @@
             <div class="text-block">We provide legal advice, tailored for each client, and their business. We involve in regulatory and private legal advice specialized for United Kingdom</div>
         </div>
         <div class="scroll-btn">
-            <div class="inner-wrapper">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+            <div class="dot"></div>
         </div>
     </div>
 </section>
