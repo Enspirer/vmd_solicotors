@@ -48,7 +48,7 @@
             </div>
             <div class="pa-card lhs-card">
                 <div class="image-block">
-                    <img src="{{url('images/practice-areas/card-1.png')}}" alt="">
+                    <img src="{{url('images/practice-areas/1.jpg')}}" alt="">
                 </div>
                 <div class="content-block">
                     <div class="header">

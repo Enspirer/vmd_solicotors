@@ -82,8 +82,32 @@
     </div>
 </section>
 
+<section class="map-section">
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.1870810545156!2d-0.17922288422587374!3d51.61978207965373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487619e7fc5b0b95%3A0xa9abe0e4eade4fdf!2sSolar%20House%2C%20915%20High%20Rd%2C%20London%20N12%208QJ%2C%20UK!5e0!3m2!1sen!2slk!4v1654788359492!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="content-block">
+        <div class="title">WE ASSURE YOU THAT WE'LL DO OUR BEST FOR YOU</div>
+        <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise clients on a wide range of practice areas from Immigration to Civil Disputes.</p>
+        <p>Our multidisciplinary team-based approach guarantees the best solution for your case. We pride ourselves on our commitment to results, quality in delivery and most of all … “dedication to all our clients”.</p>
+    </div>
+</section>
+
 @endsection
 
 @push('after-scripts')
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAIwTPctnSM2PWcbK6cMdlZaSgEYIKp5U&callback&callback=initMap"></script> -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAIwTPctnSM2PWcbK6cMdlZaSgEYIKp5U&callback=initMap" async defer></script>
 
+    <script>
+    function initMap() {
+        var mapOptions = {
+            center: new google.maps.Latlng(51.5, -0.12),
+            zoom: 6,
+        }
+    }
+
+    var map = new google.maps.Map(document.getElementById("gMap"), mapOptions)
+    </script> -->
 @endpush

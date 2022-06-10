@@ -8,7 +8,7 @@
     <div class="container">
         <div class="content-block">
             <div class="title-block">
-                <div class="title">COMPLIANCE</div>
+                <div class="title">OUR FEE & <br>PAYMENTS</div>
                 <a href="#" class="cta-btn btn-fill">Contact us</a>
             </div>
             <div class="text-block">Money Laundering Risk Assessment and Our complaints procedures</div>
@@ -28,7 +28,7 @@
         <div class="inner-wrapper">
             <div class="content-block">
                 <div class="wrapper">
-                    <div class="title">Our complaints procedures</div>
+                    <div class="title">OUR FEE & PAYMENTS</div>
                     <p>We take instructions across the practice areas in which we serve.</p>
                     <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
                     <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
