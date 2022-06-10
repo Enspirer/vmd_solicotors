@@ -27,7 +27,7 @@
             <p>VMD Solicitors are a well-established, vibrant and friendly law practice in North London. We advise clients on a wide range of practice areas from Immigration to Civil Disputes.</p>
             <p>Our multidisciplinary team-based approach guarantees the best solution for your case. We pride ourselves on our commitment to results, quality in delivery and most of all “dedication to all our clients across the world”.</p>
         </div>
-        <div class="row">
+        <div class="row g-md-0 g-4">
             <div class="col-md-4">
                 <div class="feature-block">
                     <div class="title">Trusted</div>

@@ -27,7 +27,7 @@
             <p>As a law firm, we are legally obliged to comply with Anti Money Laundering (AML) regulations. Our compliance contributes to the wider battle against financial crime and projects within then from the risk of money laundering.</p>
             <p>Anti-money laundering refers to the laws, regulations and procedures designed to prevent money laundering. At VMD we apply the ‘Know Your Customer (KYC) checks to reduce the risk of involvement with money laundering. This is done by confirming our customers ID. At VMD, we develop policies, procedures ad controls to reduce the risk of money laundering and the application of a risk-based approach to detect and prevent money laundering.</p>
         </div>
-        <div class="row">
+        <div class="row g-md-0 g-4">
             <div class="col-md-4">
                 <div class="feature-block">
                     <div class="title">Friendly service</div>
