@@ -41,7 +41,6 @@
         <div id="app">
             @include('includes.partials.logged-in-as')
             @include('frontend.includes.nav')
-            @include('includes.partials.messages')
             @yield('content')
             @include('frontend.includes.footer')
         </div><!-- #app -->
