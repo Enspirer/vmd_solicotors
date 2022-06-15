@@ -28,6 +28,7 @@
     position: relative;
     width: 100%;
     height: 600px;
+    overflow: hidden;
 
     .slide-wrapper {
         .area-slide {
@@ -39,16 +40,69 @@
             background-color: $dark-blue;
             padding: 2rem;
             max-width: 800px;
+            width: 100%;
             position: absolute;
+            top: 65%;
+            left: 21%;
+            opacity: 0;
+
+            &.active {
+                animation: areaSlider 5s ease;
+                z-index: 2;
+
+                &::after {
+                    width: 100%;
+                }
+            }
+
+            &.next {
+                animation: sliderDelay 5s ease;
+                z-index: 1;
+                top: unset;
+                left: unset;
+                bottom: 5%;
+                right: 0;
+            }
+
+            @keyframes areaSlider {
+
+                0% {
+                    opacity: 0;
+                }
+
+                40% {
+                    opacity: 1;
+                    left: 0;
+                    top: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                    left: 0;
+                    top: 0;
+                }
+            }
+
+            @keyframes sliderDelay {
+
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 0.25;
+                }
+            }
 
             &::after {
                 content: '';
-                width: 10%;
+                width: 0;
                 height: 2px;
                 background-color: $light-teal;
                 position: absolute;
                 bottom: 0;
                 left: 0;
+                transition: all 5s ease;
             }
 
             .index {
@@ -85,6 +139,52 @@
                 object-fit: cover;
                 object-position: center;
                 border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1199px) {
+    .home-practice-area-section {
+        .devider {
+            display: none;
+        }
+
+        .content-block {
+            .header {
+                margin: 2rem auto;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1199px) {
+    .area-slider {
+        .slide-wrapper {
+            .area-slide {
+                flex-direction: column;
+                max-width: 300px;
+                padding: 6rem 1.5rem 1.5rem 1.5rem;
+                text-align: center;
+                top: 30%;
+                left: 55%;
+
+                .index {
+                    position: absolute;
+                    opacity: 0.2;
+                    top: 0;
+                    right: 0;
+                }
+
+                .text-block {
+                    p {
+                        display: unset;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
             }
         }
     }

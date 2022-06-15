@@ -61,7 +61,7 @@
 <section class="home-practice-area-section">
     <div class="container">
         <div class="row g-0">
-            <div class="col-lg-11">
+            <div class="col-xl-11">
                 <div class="content-block">
                     <div class="header">Our Practice Areas</div>
                     <div class="area-slider" id="areaSlider">
@@ -69,23 +69,55 @@
                             <div class="area-slide">
                                 <div class="index">01</div>
                                 <div class="text-block">
+                                    <div class="title">Civil Litigation</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                </div>
+                                <img src="{{url('images/home/area-slide-1.png')}}">
+                            </div>
+                            <div class="area-slide">
+                                <div class="index">02</div>
+                                <div class="text-block">
+                                    <div class="title">Contract Disputes</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                </div>
+                                <img src="{{url('images/home/area-slide-2.png')}}">
+                            </div>
+                            <div class="area-slide">
+                                <div class="index">03</div>
+                                <div class="text-block">
                                     <div class="title">Debt Recovery</div>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
                                 </div>
                                 <img src="{{url('images/home/area-slide-1.png')}}">
                             </div>
                             <div class="area-slide">
-                                <div class="index">01</div>
+                                <div class="index">04</div>
                                 <div class="text-block">
-                                    <div class="title">Debt Recovery</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                    <div class="title">Drafting and Document Review</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
                                 </div>
-                                <img src="{{url('images/home/area-slide-2.png')}}">
+                                <img src="{{url('images/home/area-slide-1.png')}}">
                             </div>
                             <div class="area-slide">
-                                <div class="index">01</div>
+                                <div class="index">05</div>
                                 <div class="text-block">
-                                    <div class="title">Debt Recovery</div>
+                                    <div class="title">Employment</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                </div>
+                                <img src="{{url('images/home/area-slide-1.png')}}">
+                            </div>
+                            <div class="area-slide">
+                                <div class="index">06</div>
+                                <div class="text-block">
+                                    <div class="title">Immigration</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                </div>
+                                <img src="{{url('images/home/area-slide-1.png')}}">
+                            </div>
+                            <div class="area-slide">
+                                <div class="index">07</div>
+                                <div class="text-block">
+                                    <div class="title">Landlord and Tenant</div>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
                                 </div>
                                 <img src="{{url('images/home/area-slide-1.png')}}">
@@ -94,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1">
+            <div class="col-xl-1">
                 <div class="devider"></div>
             </div>
         </div>
@@ -243,7 +275,43 @@
 </script>
 
 <script>
+window.addEventListener('DOMContentLoaded', () => {
+    const slideWrapper = document.getElementById('areaSlider')
+    const slides = slideWrapper.querySelectorAll('.area-slide')
+    const interval = 5000
 
+    const slideForEach = () => {
+
+        slides.forEach((slide, index) => {
+
+            setTimeout(() => {
+                slide.classList.add('active')
+                setTimeout(() => {
+                    slide.classList.remove('active')
+                }, interval);
+
+                if (index < slides.length - 1) {
+                    slides[index + 1].classList.add('next')
+                    setTimeout(() => {
+                        slides[index + 1].classList.remove('next')
+                    }, interval);
+                } else if (index = slides.length) {
+                    slides[0].classList.add('next')
+                    setTimeout(() => {
+                        slides[0].classList.remove('next')
+                    }, interval);
+                }
+
+            }, index * interval);
+
+        })
+
+        setInterval(slideForEach, slides.length * interval)
+    }
+
+    slideForEach()
+
+})
 </script>
 
 @endpush
