@@ -722,9 +722,9 @@ body p {
 .cta-section {
   padding: 7.5rem 0;
   background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url("../../images/practice-areas/pai-cta-bg.png");
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
 }
 .cta-section .inner-wrapper {
   width: 80%;
@@ -763,9 +763,9 @@ body p {
 .contact-section {
   padding: 7.5rem 0 10rem;
   background: url("../../images/practice-areas/contact-bg.svg");
-  background-position: bottom center;
-  background-repeat: repeat-x;
-  background-size: 30%;
+  background-position: bottom center !important;
+  background-repeat: repeat-x !important;
+  background-size: 30% !important;
 }
 .contact-section.contact {
   background: none;
@@ -1506,9 +1506,9 @@ body p {
 footer {
   padding: 5rem 0 0 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../images/footer/footer-bg.png");
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
 }
 footer .footer-description .header {
   display: flex;

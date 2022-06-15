@@ -4,7 +4,7 @@
 
 @section('content')
 
-<section class="about hero-section">
+<section class="about hero-section" style="background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url('../../images/practice-areas/hero-banner.png');">
     <div class="container">
         <div class="content-block">
             <div class="title-block">
@@ -251,7 +251,7 @@
     </div>
 </section>
 
-<section class="cta-section">
+<section class="cta-section" style="background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url('../../images/practice-areas/pai-cta-bg.png');">
     <div class="container">
         <div class="inner-wrapper">
             <div class="subtitle">CONFIDENTIAL CONSULTATIONS</div>

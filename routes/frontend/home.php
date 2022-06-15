@@ -23,9 +23,9 @@ Route::post('contact_us/store', [ContactController::class, 'store'])->name('cont
 Route::get('practice-areas', [PracticeAreasController::class, 'index'])->name('practice_areas');
 Route::get('practice-areas/individual', [PracticeAreasController::class, 'practice_areas_individual'])->name('practice_areas_individual');
 Route::get('about-us', [AboutController::class, 'index'])->name('about');
-Route::get('compliance', [ComplianceController::class, 'index'])->name('compliance');
-Route::get('compliance-2', [ComplianceController::class, 'compliance_2'])->name('compliance_2');
-Route::get('fees', [FeesController::class, 'index'])->name('fees');
+Route::get('compliance/money-aundering', [ComplianceController::class, 'index'])->name('compliance');
+Route::get('compliance/our-complaints-procedures', [ComplianceController::class, 'compliance_2'])->name('compliance_2');
+Route::get('fees-and-payments', [FeesController::class, 'index'])->name('fees');
 
 Route::post('/aiz-uploader', [AizUploadController::class, 'show_uploader']);
 Route::post('/aiz-uploader/upload', [AizUploadController::class, 'upload']);

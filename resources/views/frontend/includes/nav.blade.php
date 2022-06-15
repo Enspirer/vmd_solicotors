@@ -10,13 +10,13 @@
         <div class="collapse navbar-collapse" id="vmdTopNav">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{route('frontend.index')}}">Home</a>
+                    <a class="nav-link {{ Request::segment(1) == '' ? 'active' : null }}" href="{{route('frontend.index')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="{{route('frontend.about')}}">About Us</a>
+                    <a class="nav-link {{ Request::segment(1) == 'about-us' ? 'active' : null }}" href="{{route('frontend.about')}}">About Us</a>
                 </li>
                 <li class="nav-item btn-group">
-                    <a class="nav-link" href="{{route('frontend.practice_areas')}}">Practice Areas</a>
+                    <a class="nav-link {{ Request::segment(1) == 'practice-areas' ? 'active' : null }}" href="{{route('frontend.practice_areas')}}">Practice Areas</a>
                     <button type="button" class="dropdown-toggle dropdown-toggle-split"
                         data-bs-toggle="dropdown">
                         <i class="bi bi-chevron-down"></i>
@@ -29,7 +29,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link {{ Request::segment(1) == 'compliance' ? 'active' : null }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Compliance 
                         <i class="bi bi-chevron-down"></i>                       
                     </a>
@@ -39,10 +39,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('frontend.fees')}}">Our fee &amp; Payments</a>
+                    <a class="nav-link {{ Request::segment(1) == 'fees-and-payments' ? 'active' : null }}" href="{{route('frontend.fees')}}">Our fee &amp; Payments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('frontend.contact')}}">Contact Us</a>
+                    <a class="nav-link {{ Request::segment(1) == 'contact' ? 'active' : null }}" href="{{route('frontend.contact')}}">Contact Us</a>
                 </li>
             </ul>
         </div>

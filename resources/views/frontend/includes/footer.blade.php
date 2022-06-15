@@ -1,4 +1,4 @@
-<footer>
+<footer style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../images/footer/footer-bg.png');">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
