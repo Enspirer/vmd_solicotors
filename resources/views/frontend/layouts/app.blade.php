@@ -42,6 +42,9 @@
             @include('includes.partials.logged-in-as')
             @include('frontend.includes.nav')
             @yield('content')
+            <div id="preloader">
+                <div id="loader"></div>
+            </div>
             @include('frontend.includes.footer')
         </div><!-- #app -->
 
@@ -60,4 +63,11 @@
 
         @include('includes.partials.ga')
     </body>
+
+    <script>
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader')
+            preloader.classList.add('hidden')
+        })
+    </script>
 </html>
