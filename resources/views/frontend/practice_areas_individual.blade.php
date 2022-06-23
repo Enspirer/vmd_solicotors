@@ -52,7 +52,7 @@
     </div>
 </section>
 
-<section class="cta-section" style="background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url('../../images/practice-areas/pai-cta-bg.png');">
+<section class="cta-section" style="background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url('{{url('../../images/practice-areas/pai-cta-bg.png')}}');">
     <div class="container">
         <div class="inner-wrapper">
             <div class="subtitle">CONFIDENTIAL CONSULTATIONS</div>
@@ -64,7 +64,7 @@
     </div>
 </section>
 
-<section class="contact-section" style="background: url('../../images/practice-areas/contact-bg.svg');">
+<section class="contact-section" style="background: url('{{url('../../images/practice-areas/contact-bg.svg')}}');">
     <div class="container">
         <div class="header">
             <div class="subtitle">Contact us</div>

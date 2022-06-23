@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-xl-7">
-                <div class="main-block" style="background: linear-gradient(to bottom, rgba(0, 19, 22, 0.9), rgba(0, 19, 22, 0.9)), url('../../images/home/home-about.png');">
+                <div class="main-block" style="background: linear-gradient(to bottom, rgba(0, 19, 22, 0.9), rgba(0, 19, 22, 0.9)), url('{{url('../../images/home/home-about.png')}}');">
                     <div class="title">The Firm</div>
                     <p>SVMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
                     <div class="nav-links">

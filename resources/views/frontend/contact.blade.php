@@ -4,7 +4,7 @@
 
 @section('content')
 
-<section class="contact hero-section" style="background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url('../../images/contact/hero-banner.png');">
+<section class="contact hero-section" style="background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url('{{url('../../images/contact/hero-banner.png')}}');">
     <div class="container">
         <div class="content-block">
             <div class="title-block">
