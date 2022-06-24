@@ -275,7 +275,7 @@
 </script>
 
 <script>
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     const slideWrapper = document.getElementById('areaSlider')
     const slides = slideWrapper.querySelectorAll('.area-slide')
     const interval = 5000
@@ -296,6 +296,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         slides[index + 1].classList.remove('next')
                     }, interval);
                 } else if (index = slides.length) {
+                    console.log('true')
                     slides[0].classList.add('next')
                     setTimeout(() => {
                         slides[0].classList.remove('next')
