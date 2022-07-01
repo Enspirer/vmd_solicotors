@@ -68,7 +68,7 @@
                         <div class="splide__track">
                             <ul class="splide__list">
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.civil_litigation')}}">
                                         <div class="area-slide">
                                             <div class="index">01</div>
                                             <div class="text-block">
@@ -80,7 +80,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.contract_disputes')}}">
                                         <div class="area-slide">
                                             <div class="index">02</div>
                                             <div class="text-block">
@@ -92,7 +92,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.debt_recovery')}}">
                                         <div class="area-slide">
                                             <div class="index">03</div>
                                             <div class="text-block">
@@ -104,7 +104,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.drafting')}}">
                                         <div class="area-slide">
                                             <div class="index">04</div>
                                             <div class="text-block">
@@ -116,7 +116,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.employment')}}">
                                         <div class="area-slide">
                                             <div class="index">05</div>
                                             <div class="text-block">
@@ -128,7 +128,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.immigration')}}">
                                         <div class="area-slide">
                                             <div class="index">06</div>
                                             <div class="text-block">
@@ -140,7 +140,7 @@
                                     </a>
                                 </li>
                                 <li class="splide__slide">
-                                    <a href="#">
+                                    <a href="{{route('frontend.landlord')}}">
                                         <div class="area-slide">
                                             <div class="index">07</div>
                                             <div class="text-block">
@@ -308,7 +308,7 @@
 var areaSlider = new Splide( '#areaSlider', {
     type   : 'loop',
     direction: 'ttb',
-    height   : '190px',
+    height   : '240px',
     wheel    : true,
     arrows   : false,
     autoplay: true,

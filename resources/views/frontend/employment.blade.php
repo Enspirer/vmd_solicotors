@@ -6,34 +6,109 @@
 
 <section class="pai-section">
     <div class="container">
-        <div class="header">Contract Disputes</div>
+        <div class="header">Employment</div>
         <div class="content-block">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Contract Disputes <span>(subtitle here)</span></div>
+                        <div class="title">Employment <span>(subtitle here)</span></div>
                         <div class="date">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
-                    <p>Our aim at VMD is to resolve the majority of civil litigation cases outside the court through arbitration, negotiation and mediation commonly referred to Alternative Dispute Resolution (ADR).</p>
-                    <p>It’s all about the burden of proof and the balance of probabilities…</p>
-                    <div class="subtitle">OUR AREAS OF WORK INCLUDES:</div>
+
+                    <p>Employers have vested rights to take the decisions in line with the business needs, however, as an employee you deserve to be treated fairly.</p>
+                    <p>We understand it’s difficult at times to maintain a smooth relationship at all the times. Employment law is extremely important to protect and enforce your rights as an employee or an employer.</p>
+
+                    <h2 class="mb-3 mt-4">Our areas of employment work include:</h2>
+
+                    <div class="subtitle">SERVICES FOR EMPLOYEES</div>
+
                     <ul>
-                        <li><i class="bi bi-square-fill"></i>Civil Disputes; Issuing and Defending Claims.</li>
-                        <li><i class="bi bi-square-fill"></i>Prohibitory and Mandatory Injunctions</li>
-                        <li><i class="bi bi-square-fill"></i>Part 36 Offers</li>
-                        <li><i class="bi bi-square-fill"></i>Summary Judgement Applications</li>
-                        <li><i class="bi bi-square-fill"></i>Setting Aside Default Judgements</li>
-                        <li><i class="bi bi-square-fill"></i>Debt Recovery</li>
-                        <li><i class="bi bi-square-fill"></i>Disclosures</li>
-                        <li><i class="bi bi-square-fill"></i>Witness Statements & Depositions</li>
-                        <li><i class="bi bi-square-fill"></i>Witness Summons</li>
-                        <li><i class="bi bi-square-fill"></i>Particulars of Claim</li>
-                        <li><i class="bi bi-square-fill"></i>Defense statements</li>
-                        <li><i class="bi bi-square-fill"></i>Enforcement of Judgements & Orders</li>
+                        <li><i class="bi bi-square-fill"></i>Discrimination at Work</li>
+                        <li><i class="bi bi-square-fill"></i>Unfair and Constructive Dismissal</li>
+                        <li><i class="bi bi-square-fill"></i>Restrictive Covenants</li>
+                        <li><i class="bi bi-square-fill"></i>Redundancy</li>
+                        <li><i class="bi bi-square-fill"></i>Bonus Disputes</li>
+                        <li><i class="bi bi-square-fill"></i>Bullying and Harassment</li>
+                        <li><i class="bi bi-square-fill"></i>Outsourcing</li>
+                        <li><i class="bi bi-square-fill"></i>Wages Claims</li>
+                        <li><i class="bi bi-square-fill"></i>Maternity Claims & Dismissals</li>
                     </ul>
-                    <p>Our hourly rate is based on grade 3 billings and starts at £121.00 per hour to £229.00 per hour. Our rates are based on seniority and experience; however, we do provide some services on a fix fee basis. Please contact us to find out more…</p>
-                    <p>If you have a dispute against a person or a business, contact us to find out what VMD can do for you!</p>
+
+                    <div class="subtitle">SERVICES FOR EMPLOYERS</div>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>Breach of Contractual Obligations</li>
+                        <li><i class="bi bi-square-fill"></i>Theft and Dishonesty</li>
+                        <li><i class="bi bi-square-fill"></i>Gross Misconduct</li>
+                        <li><i class="bi bi-square-fill"></i>Intellectual Property Theft</li>
+                        <li><i class="bi bi-square-fill"></i>Employment Contracts</li>
+                    </ul>
+
+                    <p class="mb-4">Please <a href="{{route('frontend.contact')}}">click here</a> for more information on our Fees</p>
+
+                    <div class="subtitle">PRICES</div>
+
+                    <p class="mb-4">Our pricing for bringing and defending claims for unfair, constructive or wrongful dismissal.</p>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i><strong>Simple case:</strong> £4,500 -£7,500 (excluding VAT)</li>
+                        <li><i class="bi bi-square-fill"></i><strong>Medium complexity case:</strong> £7,500 -£10,000 (excluding VAT)</li>
+                        <li><i class="bi bi-square-fill"></i><strong>High complexity case:</strong> £10,000 -£15,000 (excluding VAT)</li>
+                    </ul>
+
+                    <p class="mb-4">Factors that could make a case more complex:</p>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>If it is necessary to make or defend applications to amend claims or to provide further information about an existing claim</li>
+                        <li><i class="bi bi-square-fill"></i>Defending claims that are brought by litigants in person</li>
+                        <li><i class="bi bi-square-fill"></i>Complex preliminary issues such as whether the claimant is disabled (if this is not agreed by the parties)</li>
+                        <li><i class="bi bi-square-fill"></i>The number of witnesses and documents</li>
+                        <li><i class="bi bi-square-fill"></i>If it is an automatic unfair dismissal claim e.g. if you are dismissed after blowing the whistle on your employer</li>
+                        <li><i class="bi bi-square-fill"></i>Allegations of discrimination which are linked to the dismissal</li>
+                    </ul>
+
+                    <p  class="mb-4">There will be an additional charge for attending a Tribunal Hearing from £750 to 2,000 per day (excluding VAT). Generally, we would allow 1-2 days depending on the complexity of your case.</p>
+
+                    <div class="subtitle">DISBURSEMENTS</div>
+
+                    <p>Disbursements are costs related to your matter that are payable to third parties, such as court fees. We handle the payment of the disbursements on your behalf to ensure a smoother process.</p>
+
+                    <p  class="mb-4">Counsel’s fees estimated between £750  to 2000 per day (depending on experience of the advocate) for attending a Tribunal Hearing (including preparation)</p>
+
+                    <div class="subtitle">KEY STAGES</div>
+
+                    <p class="mb-4">The fees set out above cover all of the work in relation to the following key stages of a claim:</p>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>Taking your initial instructions, reviewing the papers and advising you on merits and likely compensation (this is likely to be revisited throughout the matter and subject to change)</li>
+                        <li><i class="bi bi-square-fill"></i>Entering into pre-claim conciliation where this is mandatory to explore whether a settlement can be reached;</li>
+                        <li><i class="bi bi-square-fill"></i>Preparing claim or response</li>
+                        <li><i class="bi bi-square-fill"></i>Reviewing and advising on claim or response from other party</li>
+                        <li><i class="bi bi-square-fill"></i>Exploring settlement and negotiating settlement throughout the process</li>
+                        <li><i class="bi bi-square-fill"></i>Preparing or considering a schedule of loss</li>
+                        <li><i class="bi bi-square-fill"></i>Preparing for (and attending) a Preliminary Hearing</li>
+                        <li><i class="bi bi-square-fill"></i>Exchanging documents with the other party and agreeing a bundle of documents</li>
+                        <li><i class="bi bi-square-fill"></i>Taking witness statements, drafting statements and agreeing their content with witnesses</li>
+                        <li><i class="bi bi-square-fill"></i>Preparing bundle of documents</li>
+                        <li><i class="bi bi-square-fill"></i>Reviewing and advising on the other party’s witness statements</li>
+                        <li><i class="bi bi-square-fill"></i>Agreeing a list of issues, a chronology and/or cast list</li>
+                        <li><i class="bi bi-square-fill"></i>Preparation and attendance at Final Hearing, including instructions to Counsel</li>
+                    </ul>
+
+                    <p class="mb-4">The stages set out above are an indication and if some of stages above are not required, the fee will be reduced. You may wish to handle the claim yourself and only have our advice in relation to some of the stages. This can also be arranged on your individual needs.</p>
+
+                    <div class="subtitle">HOW LONG WILL MY MATTER TAKE?</div>
+
+                    <p class="mb-4">The time that it takes from taking your initial instructions to the final resolution of your matter depends largely on the stage at which your case is resolved. If a settlement is reached during pre-claim conciliation, your case is likely to take 4-6 weeks. If your claim proceeds to a Final Hearing, your case is likely to take 4-18 months. This is just an estimate and we will of course be able to give you a more accurate timescale once we have more information and as the matter progresses.</p>
+
+                    <div class="subtitle">RESPONSIBILITY FOR THE WORK</div>
+
+                    <p class="mb-4">Mr. Vajira Dhanapa the Principal Solicitor have the day to day responsibility and supervision of your matter. Mr. Devon Shaw and Mr Wuri Lamin will be your Case Workers in this matter and will be your first point of contact. Mr. Devon Shaw is a graduate at Birkbeck University of London with a honours degree in law and has completed the Bar Professional Training Course at City University Law school from 2017 to 2018. Mr Wuri Lamin is a graduate with a honours degree in law at Coventry University and has completed the Bar Professional Training Course at BPP University from 2017 -2018.</p>
+
+                    <div class="subtitle">OUR TEAM</div>
+
+                    <p>Mr Vajira Dhanapala became a qualified solicitor in 2008 and worked as the principal solicitor for more than 10 years. His qualifications extend to Engineering and Project Management. Mr Dhanapala spends about 5 % of his time with employment matters and have experience in simple to medium complex matters.</p>
+
                 </div>
                 <div class="col-lg-4">
                     <ul class="navbar-nav">

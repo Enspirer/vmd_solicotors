@@ -6,12 +6,12 @@
 
 <section class="pai-section">
     <div class="container">
-        <div class="header">Contract Disputes</div>
+        <div class="header">Civil Litigation</div>
         <div class="content-block">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Contract Disputes <span>(subtitle here)</span></div>
+                        <div class="title">Civil Litigation <span>(subtitle here)</span></div>
                         <div class="date">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
@@ -32,8 +32,8 @@
                         <li><i class="bi bi-square-fill"></i>Defense statements</li>
                         <li><i class="bi bi-square-fill"></i>Enforcement of Judgements & Orders</li>
                     </ul>
-                    <p>Our hourly rate is based on grade 3 billings and starts at £121.00 per hour to £229.00 per hour. Our rates are based on seniority and experience; however, we do provide some services on a fix fee basis. Please contact us to find out more…</p>
-                    <p>If you have a dispute against a person or a business, contact us to find out what VMD can do for you!</p>
+                    <p>Our hourly rate is based on grade 3 billings and starts at £121.00 per hour to £229.00 per hour. Our rates are based on seniority and experience; however, we do provide some services on a fix fee basis. Please <a href="{{route('frontend.contact')}}">contact us</a> to find out more…</p>
+                    <p>If you have a dispute against a person or a business, <a href="{{route('frontend.contact')}}">contact us</a> to find out what VMD can do for you!</p>
                 </div>
                 <div class="col-lg-4">
                     <ul class="navbar-nav">

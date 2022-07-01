@@ -6,34 +6,174 @@
 
 <section class="pai-section">
     <div class="container">
-        <div class="header">Contract Disputes</div>
+        <div class="header">Immigration</div>
         <div class="content-block">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Contract Disputes <span>(subtitle here)</span></div>
+                        <div class="title">Immigration <span>(subtitle here)</span></div>
                         <div class="date">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
-                    <p>Our aim at VMD is to resolve the majority of civil litigation cases outside the court through arbitration, negotiation and mediation commonly referred to Alternative Dispute Resolution (ADR).</p>
-                    <p>It’s all about the burden of proof and the balance of probabilities…</p>
-                    <div class="subtitle">OUR AREAS OF WORK INCLUDES:</div>
+                    <p>VMD is your first choice for all your Immigration matters. Our high success rate especially in Immigration and Nationality Law visa has become our pillar of strength. We are proud of our repeated clientele and welcome new customers with open arms.</p>
+                    <div class="subtitle">OUR SERVICES INCLUDE:</div>
                     <ul>
-                        <li><i class="bi bi-square-fill"></i>Civil Disputes; Issuing and Defending Claims.</li>
-                        <li><i class="bi bi-square-fill"></i>Prohibitory and Mandatory Injunctions</li>
-                        <li><i class="bi bi-square-fill"></i>Part 36 Offers</li>
-                        <li><i class="bi bi-square-fill"></i>Summary Judgement Applications</li>
-                        <li><i class="bi bi-square-fill"></i>Setting Aside Default Judgements</li>
-                        <li><i class="bi bi-square-fill"></i>Debt Recovery</li>
-                        <li><i class="bi bi-square-fill"></i>Disclosures</li>
-                        <li><i class="bi bi-square-fill"></i>Witness Statements & Depositions</li>
-                        <li><i class="bi bi-square-fill"></i>Witness Summons</li>
-                        <li><i class="bi bi-square-fill"></i>Particulars of Claim</li>
-                        <li><i class="bi bi-square-fill"></i>Defense statements</li>
-                        <li><i class="bi bi-square-fill"></i>Enforcement of Judgements & Orders</li>
+                        <li><i class="bi bi-square-fill"></i>Tier 1 (general-extension, entrepreneur, investor)</li>
+                        <li><i class="bi bi-square-fill"></i>Tier 2 (general, intra-company transfer, sports persons, religious workers)</li>
+                        <li><i class="bi bi-square-fill"></i>Student Visa-Tier 4 (General, child)</li>
+                        <li><i class="bi bi-square-fill"></i>Tier 5 (youth mobility, creative and sporting, government authorised exchange, international agreements, charity and religious workers, sponsored researchers)</li>
+                        <li><i class="bi bi-square-fill"></i>European free movement applications (EEA family permits, residence cards, permanent residence cards, retained rights, posted workers)</li>
+                        <li><i class="bi bi-square-fill"></i>Spouses, civil partners, unmarried partners, children and other dependants (in all applicable categories)</li>
+                        <li><i class="bi bi-square-fill"></i>Discretionary leave applications</li>
+                        <li><i class="bi bi-square-fill"></i>UK ancestry</li>
+                        <li><i class="bi bi-square-fill"></i>Entertainers and sportspersons</li>
+                        <li><i class="bi bi-square-fill"></i>Indefinite leave to remain (permanent residence)</li>
+                        <li><i class="bi bi-square-fill"></i>Naturalisation and registration as a British citizen</li>
+                        <li><i class="bi bi-square-fill"></i>Immigration appeals</li>
+                        <li><i class="bi bi-square-fill"></i>Judicial reviews and Pre-Action Protocols</li>
+                        <li><i class="bi bi-square-fill"></i>Human rights claims</li>
+                        <li><i class="bi bi-square-fill"></i>Temporary Admission and Bail Applications</li>
+                        <li><i class="bi bi-square-fill"></i>Entry clearance applications</li>
+                        <li><i class="bi bi-square-fill"></i>Visitors (all categories, including family, general, child, private medical treatment and business)</li>
+                        <li><i class="bi bi-square-fill"></i>Emergency airport interviews</li>
+                        <li><i class="bi bi-square-fill"></i>Interview and same day application representation</li>
+                        <li><i class="bi bi-square-fill"></i>Passport and Travel document application</li>
+                        <li><i class="bi bi-square-fill"></i>Sponsor licence applications (Tiers 2, 4 and 5)</li>
+                        <li><i class="bi bi-square-fill"></i>Documents checking service</li>
                     </ul>
-                    <p>Our hourly rate is based on grade 3 billings and starts at £121.00 per hour to £229.00 per hour. Our rates are based on seniority and experience; however, we do provide some services on a fix fee basis. Please contact us to find out more…</p>
-                    <p>If you have a dispute against a person or a business, contact us to find out what VMD can do for you!</p>
+
+                    <div class="subtitle">IMMIGRATION FEES</div>
+
+                    <p class="mb-5">We charge hourly rate of £150-£200 for our immigration clients, but we could also agree on a fixed fee for many straightforward immigration applications. Agreed block fee is the most effective way for immigration application as the applicant would know exactly how much they will be spending.</p>
+
+                    <h5 class="mb-4">Average Fixed fee for immigration application ( excluding VAT)</h5>
+                    
+                    <table class="table table-dark table-hover mb-4">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle">#</th>
+                                <th scope="col" class="align-middle">Application</th>
+                                <th scope="col" class="align-middle">Our fees £ (excluding VAT)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Student application (Tier4 / inside or outside UK)</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Visitor visa (Tourism / Visiting family or friends )</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Spouse and partners applications, including fiancé(e)s or proposed civil partners</td>
+                                <td>1000 - 2000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Work visa application (Tier2)</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Dependent application (with the main application)</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Dependent application (separately)</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Ancestry visa</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Settlement applications ( including long residence )</td>
+                                <td>1500 - 2000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Entrepreneur visa ( Tier 1)</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>EEA Family member application</td>
+                                <td>500 - 1000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>British Citizenship naturalisation / Registration</td>
+                                <td>1000 - 1500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p class="mb-4">All our fees are based on average anticipated time we spend on each matter. All figures exclude VAT unless specifically stated.</p>
+
+                    <h5 class="mb-4">The exact number of hours it will take depends on the circumstances of your case. Such as:</h5>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>The amount of supporting evidence that we need to consider</li>
+                        <li><i class="bi bi-square-fill"></i>Which language(s) you speak, weather you need an interpreter</li>
+                        <li><i class="bi bi-square-fill"></i>Whether you are applying with other dependants</li>
+                        <li><i class="bi bi-square-fill"></i>If you can provide sufficient evidence at our first meeting and clearly meet the applicable Immigration Rules, the cost is likely to be at the lower end of this range.</li>
+                    </ul>
+
+                    <h5 class="mb-4">What services are included</h5>
+
+                    <p>The work will involve:</p>
+
+                    <p class="mb-4">Discussing your circumstances in details and confirming whether this is the most appropriate application for you to make and what other options are available to you:</p>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>Advising you about the requirements of the Immigration Rules and whether you meet the criteria.</li>
+                        <li><i class="bi bi-square-fill"></i>In case if you do not fulfil certain criteria, whether this can be overcome and how,</li>
+                        <li><i class="bi bi-square-fill"></i>Considering the supporting evidence you have provided</li>
+                        <li><i class="bi bi-square-fill"></i>Where necessary, helping you to obtain further evidence (such as medical records and bank statements), including taking statements from any witnesses;</li>
+                        <li><i class="bi bi-square-fill"></i>Preparing your application and submitting it on your behalf,</li>
+                        <li><i class="bi bi-square-fill"></i>Giving you advice about the outcome of the application and any further steps you may need to take.</li>
+                    </ul>
+
+                    <p class="mb-4 red">*The amount of hours depends on the number of documents, whether they need to be considered, whether anything is missing and how long it will take to obtain the missing documents</p>
+
+                    <p><strong>Disbursements (not included in costs set out above)</strong>. Disbursements are costs related to your matter that are payable to third parties, such as visa fees. Most of the time we handle the payment of the disbursements on your behalf to ensure a smoother process.</p>
+
+                    <p><strong>Please ask for Interpreters fees if you do not speak English,as we are able to offer interpreter services. But you can bring your own interpreter/friend if you wish.</strong></p>
+
+                    <p>Independent expert reports e.g. medical experts. These are not required in many cases: we will let you know as soon as possible if we consider an expert report is necessary.</p>
+
+                    <p>If there is an interview and we do attend with you, there will be additional disbursements to cover our mileage/travel expenses.</p>
+
+                    <h5 class="mb-4">The costs quoted here do not include:</h5>
+
+                    <p>Any Home Office fees for making the application. You will pay this to the Home Office directly as part of the application process.</p>
+
+                    <p class="mb-4">Where the Home Office refuse your application, advice and assistance in relation to any appeal.</p>
+
+                    <h5 class="mb-4">How long will my application take?</h5>
+
+                    <p>We cannot guarantee how long the Home Office will take to process your application. Read the current processing times at Home Office web site.</p>
+
+                    <p>Before we start your application,we will discuss about the time scale to submit your application.</p>
+
+                    <p class="mb-4"><strong>Please note the anticipated number of hours and fees are an estimate based on the facts above. All applications are likely to vary as we can give you a more accurate estimate once we have more information about your specific case.</strong></p>
+
+                    <div class="subtitle">RESPONSIBILITY FOR THE WORK</div>
+
+                    <p>Mr Vajira Dhanapala , Mr Devon Shaw, Mr Prasad Abeykoone and Mr Lalith Jayasinghe will handle your day to day work.</p>
+
+                    <p>Mr Vajira Dhanapala became a qualified solicitor in 2008 and worked as the principal solicitor for more than 10 years. further he got qualification In Engineering and project management. He normally spends about 75 % of his time with Immigration work and have experience in simple to very complex matters.</p>
+
+                    <p>Prasad Abeykoon became a registered foreign lawyer (RFL) in 2019 but have many years of experience in other jurisdictions. Prasad Abeykoon normally spend 75% of his time on immigration work and have experience in simple to complex matters.</p>
+
+                    <p>Mr Lalith jayasinghe is a Trainee Solicitor and has a master’s degree in Law (LLM) from Nottingham Trent University, LLB from Plymouth University and PGD(LP) from London Metropolitan University</p>
+
                 </div>
                 <div class="col-lg-4">
                     <ul class="navbar-nav">

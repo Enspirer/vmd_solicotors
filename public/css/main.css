@@ -707,8 +707,11 @@ body p {
   bottom: -3%;
   transform: translate(-50%, 0);
 }
+.pai-section .content-block * {
+  color: #fff;
+}
 .pai-section .content-block .title-block {
-  border-bottom: 1px solid #93928E;
+  border-bottom: 1px solid #93928e;
   padding: 1rem 0;
   margin-bottom: 2rem;
 }
@@ -733,11 +736,24 @@ body p {
   color: #fff;
   margin-bottom: 1rem;
 }
+.pai-section .content-block p.red {
+  color: #b34040;
+}
+.pai-section .content-block p a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #00FFFF;
+}
+.pai-section .content-block p strong {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
 .pai-section .content-block .subtitle {
   font-size: 1.25rem;
   font-weight: 300;
   color: #fff;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 .pai-section .content-block ul {
   list-style: none;
@@ -750,6 +766,10 @@ body p {
   font-weight: 200;
   color: #fff;
 }
+.pai-section .content-block ul li strong {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
 .pai-section .content-block ul li .bi {
   position: absolute;
   left: -1.75rem;
@@ -758,22 +778,24 @@ body p {
 .pai-section .content-block .navbar-nav {
   width: fit-content;
   margin-left: auto;
-  background-color: #091B1E;
+  background-color: #091b1e;
   border-radius: 5px;
   overflow: hidden;
+  position: sticky;
+  top: 7rem;
 }
 .pai-section .content-block .navbar-nav .nav-item {
   margin: 0;
 }
 .pai-section .content-block .navbar-nav .nav-item:not(:nth-last-child(1)) {
-  border-bottom: 1px solid #003F4A;
+  border-bottom: 1px solid #003f4a;
 }
 .pai-section .content-block .navbar-nav .nav-item .nav-link {
   padding: 0.8rem 1.5rem 0.8rem 2rem;
   position: relative;
 }
 .pai-section .content-block .navbar-nav .nav-item .nav-link.nav-header {
-  background-color: #0C858E;
+  background-color: #0c858e;
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
@@ -957,6 +979,13 @@ body p {
   .contact-section .contact-form .inner-wrapper {
     width: 100%;
     margin: 0;
+  }
+
+  .pai-section .content-block .navbar-nav {
+    margin-left: 0;
+    margin-top: 3rem;
+    position: unset;
+    top: unset;
   }
 }
 .about-section {

@@ -12,7 +12,7 @@
         margin: 0 auto 3rem;
 
         &::after {
-            content: '';
+            content: "";
             width: 40%;
             height: 2px;
             border-radius: 20px;
@@ -25,8 +25,11 @@
     }
 
     .content-block {
+        * {
+            color: #fff;
+        }
         .title-block {
-            border-bottom: 1px solid #93928E;
+            border-bottom: 1px solid #93928e;
             padding: 1rem 0;
             margin-bottom: 2rem;
 
@@ -43,24 +46,47 @@
             }
 
             .date {
-                font-size: .8rem;
+                font-size: 0.8rem;
                 font-weight: 300;
                 color: $teal;
             }
         }
 
+        // .content-wrapper {
+        //     padding: 2rem;
+        //     border-radius: 10px;
+        //     border: 1px solid $teal;
+        //     margin-bottom: 2rem;
+        // }
+
         p {
-            font-size: .9rem;
+            font-size: 0.9rem;
             font-weight: 200;
             color: $white;
             margin-bottom: 1rem;
+
+            &.red {
+                color: #b34040;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 0.9rem;
+                font-weight: 200;
+                color: $light-teal;
+            }
+
+            strong {
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
         }
 
         .subtitle {
             font-size: 1.25rem;
             font-weight: 300;
             color: $white;
-            margin: 2rem 0;
+            margin-bottom: 2rem;
         }
 
         ul {
@@ -68,16 +94,21 @@
             margin-bottom: 2rem;
 
             li {
-                margin-bottom: .75rem;
+                margin-bottom: 0.75rem;
                 position: relative;
-                font-size: .9rem;
+                font-size: 0.9rem;
                 font-weight: 200;
                 color: $white;
+
+                strong {
+                    font-weight: 500;
+                    margin-right: 0.5rem;
+                }
 
                 .bi {
                     position: absolute;
                     left: -1.75rem;
-                    font-size: .7rem;
+                    font-size: 0.7rem;
                 }
             }
         }
@@ -85,23 +116,25 @@
         .navbar-nav {
             width: fit-content;
             margin-left: auto;
-            background-color: #091B1E;
+            background-color: #091b1e;
             border-radius: 5px;
             overflow: hidden;
+            position: sticky;
+            top: 7rem;
 
             .nav-item {
                 margin: 0;
 
                 &:not(:nth-last-child(1)) {
-                    border-bottom: 1px solid #003F4A;
+                    border-bottom: 1px solid #003f4a;
                 }
 
                 .nav-link {
-                    padding: .8rem 1.5rem .8rem 2rem;
+                    padding: 0.8rem 1.5rem 0.8rem 2rem;
                     position: relative;
 
                     &.nav-header {
-                        background-color: #0C858E;
+                        background-color: #0c858e;
                         font-size: 1.25rem;
                         font-weight: 400;
                         color: $white;
@@ -111,7 +144,7 @@
                         @include overlay($light-teal, 0.2);
 
                         &:before {
-                            content: '';
+                            content: "";
                             width: 3px;
                             height: 100%;
                             @include overlay($light-teal, 0.7);
@@ -128,7 +161,12 @@
 
 .cta-section {
     padding: 7.5rem 0;
-    background: linear-gradient(to bottom, rgba(18, 34, 53, 0.75), rgba(18, 34, 53, 0.75)), url('../../images/practice-areas/pai-cta-bg.png');
+    background: linear-gradient(
+            to bottom,
+            rgba(18, 34, 53, 0.75),
+            rgba(18, 34, 53, 0.75)
+        ),
+        url("../../images/practice-areas/pai-cta-bg.png");
     background-size: cover !important;
     background-position: bottom center !important;
     background-repeat: no-repeat !important;
@@ -175,7 +213,7 @@
 
 .contact-section {
     padding: 7.5rem 0 10rem;
-    background: url('../../images/practice-areas/contact-bg.svg');
+    background: url("../../images/practice-areas/contact-bg.svg");
     background-position: bottom center !important;
     background-repeat: repeat-x !important;
     background-size: 30% !important;
@@ -209,7 +247,7 @@
 
     .contact-form {
         p {
-            font-size: .9rem;
+            font-size: 0.9rem;
             font-weight: 200;
             color: $white;
             margin-bottom: 1rem;
@@ -220,7 +258,7 @@
             border: 1px solid transparent;
             @include overlay($white, 0.1);
             color: rgba($color: $white, $alpha: 0.8);
-            font-size: .8rem;
+            font-size: 0.8rem;
             font-weight: 300;
 
             &:focus {
@@ -266,7 +304,7 @@
             }
 
             p {
-                font-size: .9rem;
+                font-size: 0.9rem;
                 font-weight: 200;
                 color: $white;
                 margin-bottom: 2rem;
@@ -279,7 +317,7 @@
 
                 a {
                     position: relative;
-                    font-size: .8rem;
+                    font-size: 0.8rem;
                     font-weight: 200;
                     text-decoration: none;
                     color: $white;
@@ -329,6 +367,17 @@
             .inner-wrapper {
                 width: 100%;
                 margin: 0;
+            }
+        }
+    }
+
+    .pai-section {
+        .content-block {
+            .navbar-nav {
+                margin-left: 0;
+                margin-top: 3rem;
+                position: unset;
+                top: unset;
             }
         }
     }
