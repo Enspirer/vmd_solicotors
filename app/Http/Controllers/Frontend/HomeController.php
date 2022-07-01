@@ -24,4 +24,12 @@ class HomeController extends Controller
             'posts' => $posts
         ]);
     }
+
+    public function light_hero_1() {
+        return view('frontend.light_hero_1');
+    }
+
+    public function light_hero_2() {
+        return view('frontend.light_hero_2');
+    }
 }

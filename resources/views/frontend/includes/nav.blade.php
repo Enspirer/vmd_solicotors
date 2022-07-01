@@ -22,10 +22,13 @@
                         <i class="bi bi-chevron-down"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.civil_litigation')}}">Civil Litigation</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.contract_disputes')}}">Contract Disputes</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.debt_recovery')}}">Debt Recovery</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.drafting')}}">Drafting and Document Review</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.employment')}}">Employment</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.immigration')}}">Immigration</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.landlord')}}">Landlord and Tenant</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

@@ -16,12 +16,20 @@ use App\Http\Controllers\Frontend\User\ProfileController;
  * All route names are prefixed with 'frontend.'.
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/light-hero-1', [HomeController::class, 'light_hero_1'])->name('light_hero_1');
+Route::get('/light-hero-2', [HomeController::class, 'light_hero_2'])->name('light_hero_2');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::post('contact_us/store', [ContactController::class, 'store'])->name('contact_us.store');
 // Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 Route::get('practice-areas', [PracticeAreasController::class, 'index'])->name('practice_areas');
-Route::get('practice-areas/individual', [PracticeAreasController::class, 'practice_areas_individual'])->name('practice_areas_individual');
+Route::get('practice-areas/civil-litigation', [PracticeAreasController::class, 'civil_litigation'])->name('civil_litigation');
+Route::get('practice-areas/contract-disputes', [PracticeAreasController::class, 'contract_disputes'])->name('contract_disputes');
+Route::get('practice-areas/debt-recovery', [PracticeAreasController::class, 'debt_recovery'])->name('debt_recovery');
+Route::get('practice-areas/drafting-and-document-review', [PracticeAreasController::class, 'drafting'])->name('drafting');
+Route::get('practice-areas/employment', [PracticeAreasController::class, 'employment'])->name('employment');
+Route::get('practice-areas/immigration', [PracticeAreasController::class, 'immigration'])->name('immigration');
+Route::get('practice-areas/landlord-and-tenant', [PracticeAreasController::class, 'landlord'])->name('landlord');
 Route::get('about-us', [AboutController::class, 'index'])->name('about');
 Route::get('compliance/money-aundering', [ComplianceController::class, 'index'])->name('compliance');
 Route::get('compliance/our-complaints-procedures', [ComplianceController::class, 'compliance_2'])->name('compliance_2');

@@ -38,7 +38,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.practice_areas_individual')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.civil_litigation')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">01</div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="#" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.contract_disputes')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">02</div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.practice_areas_individual')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.debt_recovery')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">03</div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="#" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.drafting')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">04</div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.practice_areas_individual')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.employment')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">05</div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="#" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.immigration')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">06</div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.practice_areas_individual')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.landlord')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">07</div>
                 </div>
             </div>

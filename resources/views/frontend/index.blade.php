@@ -26,7 +26,7 @@
 <section class="home-about-section">
     <div class="container">
         <div class="row g-4">
-            <div class="col-xl-7">
+            <div class="col-lg-7">
                 <div class="main-block" style="background: linear-gradient(to bottom, rgba(0, 19, 22, 0.9), rgba(0, 19, 22, 0.9)), url('{{url('images/home/home-about.png')}}');">
                     <div class="title">The Firm</div>
                     <p>SVMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-5">
+            <div class="col-lg-5">
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="feature-block top-block bg-teal">
@@ -64,64 +64,94 @@
             <div class="col-xl-11">
                 <div class="content-block">
                     <div class="header">Our Practice Areas</div>
-                    <div class="area-slider" id="areaSlider">
-                        <div class="slide-wrapper">
-                            <div class="area-slide">
-                                <div class="index">01</div>
-                                <div class="text-block">
-                                    <div class="title">Civil Litigation</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">02</div>
-                                <div class="text-block">
-                                    <div class="title">Contract Disputes</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-2.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">03</div>
-                                <div class="text-block">
-                                    <div class="title">Debt Recovery</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">04</div>
-                                <div class="text-block">
-                                    <div class="title">Drafting and Document Review</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">05</div>
-                                <div class="text-block">
-                                    <div class="title">Employment</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">06</div>
-                                <div class="text-block">
-                                    <div class="title">Immigration</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
-                            <div class="area-slide">
-                                <div class="index">07</div>
-                                <div class="text-block">
-                                    <div class="title">Landlord and Tenant</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
-                                </div>
-                                <img src="{{url('images/home/area-slide-1.png')}}">
-                            </div>
+                    <div class="splide area-slider" role="group" id="areaSlider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">01</div>
+                                            <div class="text-block">
+                                                <div class="title">Civil Litigation</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">02</div>
+                                            <div class="text-block">
+                                                <div class="title">Contract Disputes</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-2.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">03</div>
+                                            <div class="text-block">
+                                                <div class="title">Debt Recovery</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">04</div>
+                                            <div class="text-block">
+                                                <div class="title">Drafting and Document Review</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">05</div>
+                                            <div class="text-block">
+                                                <div class="title">Employment</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">06</div>
+                                            <div class="text-block">
+                                                <div class="title">Immigration</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="#">
+                                        <div class="area-slide">
+                                            <div class="index">07</div>
+                                            <div class="text-block">
+                                                <div class="title">Landlord and Tenant</div>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                            </div>
+                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -275,44 +305,19 @@
 </script>
 
 <script>
-window.addEventListener('load', () => {
-    const slideWrapper = document.getElementById('areaSlider')
-    const slides = slideWrapper.querySelectorAll('.area-slide')
-    const interval = 5000
+var areaSlider = new Splide( '#areaSlider', {
+    type   : 'loop',
+    direction: 'ttb',
+    height   : '190px',
+    wheel    : true,
+    arrows   : false,
+    autoplay: true,
+    breakpoints: {
+        991: { height: '400px' },
+    },
+} );
 
-    const slideForEach = () => {
-
-        slides.forEach((slide, index) => {
-
-            setTimeout(() => {
-                slide.classList.add('active')
-                setTimeout(() => {
-                    slide.classList.remove('active')
-                }, interval);
-
-                if (index < slides.length - 1) {
-                    slides[index + 1].classList.add('next')
-                    setTimeout(() => {
-                        slides[index + 1].classList.remove('next')
-                    }, interval);
-                } else if (index = slides.length) {
-                    console.log('true')
-                    slides[0].classList.add('next')
-                    setTimeout(() => {
-                        slides[0].classList.remove('next')
-                    }, interval);
-                }
-
-            }, index * interval);
-
-        })
-
-        setInterval(slideForEach, slides.length * interval)
-    }
-
-    slideForEach()
-
-})
+areaSlider.mount();
 </script>
 
 @endpush
