@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Employment <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Employment</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
 
                     <p>Employers have vested rights to take the decisions in line with the business needs, however, as an employee you deserve to be treated fairly.</p>

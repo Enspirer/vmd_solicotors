@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Criminal Litigation <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Criminal Litigation</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
                     <p>Our team of criminal defence has a wealth of experience in all areas of criminal law, from personal allegations to the most serious cases of murder, fraud, theft and homicide.</p>
                     <p>We know that your reputation and as well as your personal liberty are at stake and we fiercely defend our clients, whilst maintaining complete confidentiality and professionalism, to minimise any damage to your reputation and credibility.</p>

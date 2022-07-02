@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Drafting and Document Review <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Drafting and Document Review</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
                 </div>
                 <div class="col-lg-4">

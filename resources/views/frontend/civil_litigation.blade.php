@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Civil Litigation <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Civil Litigation</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
                     <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
                     <p>Our aim at VMD is to resolve the majority of civil litigation cases outside the court through arbitration, negotiation and mediation commonly referred to Alternative Dispute Resolution (ADR).</p>

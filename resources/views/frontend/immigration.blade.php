@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Immigration <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Immigration</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
                     <p>VMD is your first choice for all your Immigration matters. Our high success rate especially in Immigration and Nationality Law visa has become our pillar of strength. We are proud of our repeated clientele and welcome new customers with open arms.</p>
                     <div class="subtitle">OUR SERVICES INCLUDE:</div>

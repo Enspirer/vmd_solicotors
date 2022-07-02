@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Debt Recovery <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Debt Recovery</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
 
                     <p>At VMD our Debt Recovery Charges are published in line and in accordance with the price transparency rules laid out by the Solicitors Regulation Authority. This page sets out the cost for engaging VMD Solicitors to recover debts.</p>

@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Landlord and Tenant <span>(subtitle here)</span></div>
-                        <div class="date">Last Updated: 25th February 2022</div>
+                        <div class="title">Landlord and Tenant</div>
+                        <!-- <div class="date">Last Updated: 25th February 2022</div> -->
                     </div>
                     <p>If you’ve got problem tenants or rent arrears and need to recover your property, we can assist you.</p>
                     <p>Start off with our case review. After that, if you need our help, our step-by-step approach and simple, fixed-fee services will keep you on the</p>
