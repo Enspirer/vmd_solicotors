@@ -42,18 +42,17 @@
             </div>
             <div class="col-lg-2">
                 <ul class="footer-nav">
-                    <li><a href="#" class="footer-link title">Compliance</a></li>
-                    <li><a href="#" class="footer-link">Money Laundering</a></li>
-                    <li><a href="#" class="footer-link">Risk Assessment</a></li>
-                    <li><a href="#" class="footer-link">Our complaints procedures</a></li>
+                    <li><a href="" class="footer-link title">Compliance</a></li>
+                    <li><a href="{{route('frontend.money_laundering')}}" class="footer-link">Money Laundering</a></li>
+                    <li><a href="{{route('frontend.complaints_procedure')}}" class="footer-link">Our complaints procedures</a></li>
                 </ul>
             </div>
             <div class="col-lg-2">
                 <ul class="footer-nav">
-                    <li><a href="#" class="footer-link title">Talk to us on</a></li>
-                    <li><a href="#" class="footer-link">Immigration</a></li>
-                    <li><a href="#" class="footer-link">Employment</a></li>
-                    <li><a href="#" class="footer-link">Contract disputes</a></li>
+                    <li><a href="" class="footer-link title">Talk to us on</a></li>
+                    <li><a href="{{route('frontend.immigration')}}" class="footer-link">Immigration</a></li>
+                    <li><a href="{{route('frontend.employment')}}" class="footer-link">Employment</a></li>
+                    <li><a href="{{route('frontend.contract_disputes')}}" class="footer-link">Contract disputes</a></li>
                 </ul>
             </div>
         </div>
