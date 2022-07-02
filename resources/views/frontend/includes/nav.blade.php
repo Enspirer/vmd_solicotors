@@ -23,6 +23,7 @@
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item" href="{{route('frontend.civil_litigation')}}">Civil Litigation</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.criminal_litigation')}}">Criminal Litigation</a></li>
                         <li><a class="dropdown-item" href="{{route('frontend.contract_disputes')}}">Contract Disputes</a></li>
                         <li><a class="dropdown-item" href="{{route('frontend.debt_recovery')}}">Debt Recovery</a></li>
                         <li><a class="dropdown-item" href="{{route('frontend.drafting')}}">Drafting and Document Review</a></li>
@@ -37,8 +38,8 @@
                         <i class="bi bi-chevron-down"></i>                       
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="{{route('frontend.compliance')}}">Money Laundering</a></li>
-                        <li><a class="dropdown-item" href="{{route('frontend.compliance_2')}}">Our complaints Procedures</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.money_laundering')}}">Money Laundering</a></li>
+                        <li><a class="dropdown-item" href="{{route('frontend.complaints_procedure')}}">Our complaints Procedures</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

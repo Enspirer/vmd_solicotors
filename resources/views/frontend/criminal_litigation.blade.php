@@ -6,51 +6,44 @@
 
 <section class="pai-section">
     <div class="container">
-        <div class="header">Landlord and Tenant</div>
+        <div class="header">Criminal Litigation</div>
         <div class="content-block">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="title-block">
-                        <div class="title">Landlord and Tenant <span>(subtitle here)</span></div>
+                        <div class="title">Criminal Litigation <span>(subtitle here)</span></div>
                         <div class="date">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>If you’ve got problem tenants or rent arrears and need to recover your property, we can assist you.</p>
-                    <p>Start off with our case review. After that, if you need our help, our step-by-step approach and simple, fixed-fee services will keep you on the</p>
-                    <p class="mb-4">With years of experience in evictions, rent and debt recovery, we can sort your problems quickly and easily without you having to worry about escalating costs.</p>
-
-                    <div class="subtitle">LANDLORD AND TENANT PRICING</div>
-
-                    <h6 class="mb-4">STAGE 1 (Legal Notice) – £225.00</h6>
-
-                    <p class="mb-4">For tenant eviction we serve one of two notices under the Housing Act 1988. A Section 8 Notice or a Section 21 Notice. This is usually supported with a letter informing the tenants on ‘help and resources’ available in the event they are homeless or about to become homeless.</p>
-
-                    <h6 class="mb-4">STAGE 2 (Court Proceedings) – £1050.00 includes VAT and court fees</h6>
-
-                    <p class="mb-4">If the tenant fails to leave the property upon receipt of the required notices, we will then initiate court proceedings by filing a application for eviction with the particulars of claim and the relevant evidence to support the application.</p>
-
-                    <h6 class="mb-4">Stage 3 The Hearing £650.00 + VAT per day </h6>
-
-                    <p class="mb-4">This is an instant service that will save you the processing time as we can load this directly on the courts system within 24 hours of receiving your instruction. Thus Saving postal times. The average time for a bailiff is anything between 6-8 weeks, although some courts are quicker.</p>
-
-                    <h6 class="mb-4">Stage 4 High Court Enforcement – £919.00 +VAT</h6>
-
-                    <p class="mb-4">In the event the tenant failed to leave the property after a possession order and date is granted by the court, we will apply to the High court for enforcement upon which officers will evict the tenant under a writ of possession. You are likely to be subjected to an additional fee for the instruction of High Court Enforcement Officers.</p>
-
-                    <p>Our starting point in resolving disputes between contracting parties is the issuance of a pre-action letter before claim in compliance with CPR 1999. Our objective is to put the other party on notice that court proceeding may be brought against them if a solution cannot be achieved or a remedy.</p>
-
-                    <p>Our fee for drafting a pre-action starts from £350 to £750 plus VAT depending on the complexity of the matter.</p>
+                    <p>Our team of criminal defence has a wealth of experience in all areas of criminal law, from personal allegations to the most serious cases of murder, fraud, theft and homicide.</p>
+                    <p>We know that your reputation and as well as your personal liberty are at stake and we fiercely defend our clients, whilst maintaining complete confidentiality and professionalism, to minimise any damage to your reputation and credibility.</p>
+                    <p class="mb-4">At present, we do not accept Legal Aid clients as all our instructions are private.  However, we can apply for Legal Aid on your behalf providing you qualify for Legal Aid.</p>
+                    <div class="subtitle">We Cover All Offences Including:</div>
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>White collar crime</li>
+                        <li><i class="bi bi-square-fill"></i>Money Laundering</li>
+                        <li><i class="bi bi-square-fill"></i>Sexual offences</li>
+                        <li><i class="bi bi-square-fill"></i>Indecent images</li>
+                        <li><i class="bi bi-square-fill"></i>Assault</li>
+                        <li><i class="bi bi-square-fill"></i>Harassment</li>
+                        <li><i class="bi bi-square-fill"></i>Road traffic law</li>
+                        <li><i class="bi bi-square-fill"></i>Online and computer crime</li>
+                        <li><i class="bi bi-square-fill"></i>Drugs offences</li>
+                        <li><i class="bi bi-square-fill"></i>Trading standards / Business crime</li>
+                        <li><i class="bi bi-square-fill"></i>Blackmail and Bribery</li>
+                        <li><i class="bi bi-square-fill"></i>Appeals</li>
+                    </ul>
                 </div>
                 <div class="col-lg-4">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link nav-header">Our Practice Areas</a></li>
                         <li class="nav-item"><a href="{{route('frontend.civil_litigation')}}" class="nav-link">Civil Litigation</a></li>
-                        <li class="nav-item"><a href="{{route('frontend.criminal_litigation')}}" class="nav-link">Criminal Litigation</a></li>
+                        <li class="nav-item"><a href="{{route('frontend.criminal_litigation')}}" class="nav-link active">Criminal Litigation</a></li>
                         <li class="nav-item"><a href="{{route('frontend.contract_disputes')}}" class="nav-link">Contract Disputes</a></li>
                         <li class="nav-item"><a href="{{route('frontend.debt_recovery')}}" class="nav-link">Debt Recovery</a></li>
                         <li class="nav-item"><a href="{{route('frontend.drafting')}}" class="nav-link">Drafting and Document Review</a></li>
                         <li class="nav-item"><a href="{{route('frontend.employment')}}" class="nav-link">Employment</a></li>
                         <li class="nav-item"><a href="{{route('frontend.immigration')}}" class="nav-link">Immigration</a></li>
-                        <li class="nav-item"><a href="{{route('frontend.landlord')}}" class="nav-link active">Landlord and Tenant</a></li>
+                        <li class="nav-item"><a href="{{route('frontend.landlord')}}" class="nav-link">Landlord and Tenant</a></li>
                     </ul>
                 </div>
             </div>

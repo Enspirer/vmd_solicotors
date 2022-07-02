@@ -29,7 +29,7 @@
             <div class="col-lg-7">
                 <div class="main-block" style="background: linear-gradient(to bottom, rgba(0, 19, 22, 0.9), rgba(0, 19, 22, 0.9)), url('{{url('images/home/home-about.png')}}');">
                     <div class="title">The Firm</div>
-                    <p>SVMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
+                    <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
                     <div class="nav-links">
                         <a href="#" class="nav-link">Explore our Expertise</a>
                         <a href="#" class="nav-link">Meet our team</a>
@@ -48,7 +48,7 @@
                     <div class="col-12">
                         <div class="feature-block bg-dark-blue">
                             <div class="title">Equality and Diversity</div>
-                            <p>SVMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes. </p>
+                            <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes. </p>
                             <a href="#" class="nav-link">Explore about us page</a>
                         </div>
                     </div>
@@ -73,81 +73,101 @@
                                             <div class="index">01</div>
                                             <div class="text-block">
                                                 <div class="title">Civil Litigation</div>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/1.png')}}">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <a href="{{route('frontend.criminal_litigation')}}">
+                                        <div class="area-slide">
+                                            <div class="index">02</div>
+                                            <div class="text-block">
+                                                <div class="title">Criminal Litigation</div>
+                                                <p>Our team of criminal defence has a wealth of experience in all areas of criminal law, from personal allegations to the most serious cases of murder, fraud, theft and homicide.</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
+                                            </div>
+                                            <img src="{{url('images/home/2.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.contract_disputes')}}">
                                         <div class="area-slide">
-                                            <div class="index">02</div>
+                                            <div class="index">03</div>
                                             <div class="text-block">
                                                 <div class="title">Contract Disputes</div>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-2.png')}}">
+                                            <img src="{{url('images/home/3.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.debt_recovery')}}">
                                         <div class="area-slide">
-                                            <div class="index">03</div>
+                                            <div class="index">04</div>
                                             <div class="text-block">
                                                 <div class="title">Debt Recovery</div>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <p>At VMD our Debt Recovery Charges are published in line and in accordance with the price transparency rules laid out by the Solicitors Regulation Authority. This page sets out the cost for engaging VMD Solicitors to recover debts.</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/4.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.drafting')}}">
                                         <div class="area-slide">
-                                            <div class="index">04</div>
+                                            <div class="index">05</div>
                                             <div class="text-block">
                                                 <div class="title">Drafting and Document Review</div>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/5.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.employment')}}">
                                         <div class="area-slide">
-                                            <div class="index">05</div>
+                                            <div class="index">06</div>
                                             <div class="text-block">
                                                 <div class="title">Employment</div>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <p>Employers have vested rights to take the decisions in line with the business needs, however, as an employee you deserve to be treated fairly.</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/6.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.immigration')}}">
                                         <div class="area-slide">
-                                            <div class="index">06</div>
+                                            <div class="index">07</div>
                                             <div class="text-block">
                                                 <div class="title">Immigration</div>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <p>VMD is your first choice for all your Immigration matters. Our high success rate especially in Immigration and Nationality Law visa has become our pillar of strength. We are proud of our repeated clientele and welcome new customers with open arms.</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/7.png')}}">
                                         </div>
                                     </a>
                                 </li>
                                 <li class="splide__slide">
                                     <a href="{{route('frontend.landlord')}}">
                                         <div class="area-slide">
-                                            <div class="index">07</div>
+                                            <div class="index">08</div>
                                             <div class="text-block">
                                                 <div class="title">Landlord and Tenant</div>
-                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam unde non perspiciatis id, amet sequi!</p>
+                                                <p>If you’ve got problem tenants or rent arrears and need to recover your property, we can assist you. Start off with our case review. After that, if you need our help, our step-by-step approach and simple, fixed-fee services will keep you on the</p>
+                                                <div class="read-more">Read More <i class="bi bi-arrow-right-short"></i></div>
                                             </div>
-                                            <img src="{{url('images/home/area-slide-1.png')}}">
+                                            <img src="{{url('images/home/8.png')}}">
                                         </div>
                                     </a>
                                 </li>
@@ -313,7 +333,7 @@ var areaSlider = new Splide( '#areaSlider', {
     arrows   : false,
     autoplay: true,
     breakpoints: {
-        991: { height: '400px' },
+        991: { height: '425px' },
     },
 } );
 

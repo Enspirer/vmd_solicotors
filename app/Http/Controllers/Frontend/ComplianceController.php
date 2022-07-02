@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class ComplianceController extends Controller
 {
-    public function index() {
-        return view('frontend.compliance');
+    public function money_laundering() {
+        return view('frontend.money_laundering');
     }
 
-    public function compliance_2() {
-        return view('frontend.compliance_2');
+    public function complaints_procedure() {
+        return view('frontend.complaints_procedure');
     }
 }

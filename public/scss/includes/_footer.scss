@@ -1,6 +1,11 @@
 footer {
     padding: 5rem 0 0 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../images/footer/footer-bg.png');
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)
+        ),
+        url("../../images/footer/footer-bg.png");
     background-size: cover !important;
     background-position: bottom center !important;
     background-repeat: no-repeat !important;
@@ -28,7 +33,7 @@ footer {
         }
 
         p {
-            font-size: .8rem;
+            font-size: 0.8rem;
             font-weight: 200;
             color: $white;
         }
@@ -42,12 +47,12 @@ footer {
         .footer-link {
             text-decoration: none;
             color: $white;
-            font-size: .8rem;
+            font-size: 0.8rem;
             font-weight: 200;
 
             &.title {
                 color: $light-teal;
-                margin-bottom: .5rem;
+                margin-bottom: 0.5rem;
                 display: block;
             }
         }
@@ -60,7 +65,7 @@ footer {
 
         a {
             position: relative;
-            font-size: .8rem;
+            font-size: 0.8rem;
             font-weight: 200;
             text-decoration: none;
             color: $white;
@@ -103,16 +108,29 @@ footer {
     }
 
     .copyright {
-        border-top: 1px solid $white;
-        padding: 1rem 0 2rem;
-        text-align: right;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        border-top: 1px solid #fff;
 
-        a {
-            text-decoration: none;
-            color: $white;
-            text-align: right;
-            font-size: .7rem;
+        span {
+            font-size: 0.8rem;
             font-weight: 300;
+            color: $white;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                font-size: 0.8rem;
+                font-weight: 300;
+
+                &.tallentor {
+                    color: $teal;
+                }
+            }
         }
     }
 }
@@ -125,6 +143,12 @@ footer {
 
         .footer-nav {
             margin-bottom: 1rem;
+        }
+
+        .copyright {
+            flex-direction: column;
+            gap: 0;
+            text-align: center;
         }
     }
 }

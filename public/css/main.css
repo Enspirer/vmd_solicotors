@@ -1079,7 +1079,7 @@ body p {
 .scroll-section .inner-wrapper .content-block {
   flex: 1 1 100%;
   max-height: 400px;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 0 2rem;
   scrollbar-color: #00FFFF rgba(255, 255, 255, 0.4);
   scrollbar-width: thin;
@@ -1093,6 +1093,9 @@ body p {
 .scroll-section .inner-wrapper .content-block::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.4);
 }
+.scroll-section .inner-wrapper .content-block .wrapper * {
+  color: #fff;
+}
 .scroll-section .inner-wrapper .content-block .wrapper .title {
   font-size: 2rem;
   font-weight: 300;
@@ -1105,6 +1108,32 @@ body p {
   font-weight: 200;
   color: #fff;
   margin-bottom: 1rem;
+}
+.scroll-section .inner-wrapper .content-block .wrapper a {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #00FFFF;
+  text-decoration: none;
+}
+.scroll-section .inner-wrapper .content-block .wrapper ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+.scroll-section .inner-wrapper .content-block .wrapper ul li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fff;
+}
+.scroll-section .inner-wrapper .content-block .wrapper ul li strong {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+.scroll-section .inner-wrapper .content-block .wrapper ul li .bi {
+  position: absolute;
+  left: -1.75rem;
+  font-size: 0.7rem;
 }
 .scroll-section .inner-wrapper .image-block {
   flex: 1 1 100%;
@@ -1211,13 +1240,13 @@ body p {
   text-decoration: none;
 }
 .team-section .team-block .team-card .image-block .social .social-link:nth-child(1) {
-  background-color: #55ACEE;
+  background-color: #55acee;
 }
 .team-section .team-block .team-card .image-block .social .social-link:nth-child(2) {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 .team-section .team-block .team-card .image-block .social .social-link:nth-child(3) {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .team-section .team-block .team-card .image-block .social .social-link i {
   font-size: 1rem;
@@ -1528,6 +1557,13 @@ body p {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+.area-slider a .area-slide .text-block .read-more {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #fff;
+  text-transform: uppercase;
+}
 .area-slider a .area-slide img {
   width: 200px;
   height: 125px;
@@ -1659,16 +1695,27 @@ footer .social-media a {
   font-size: 1rem;
 }
 footer .copyright {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   border-top: 1px solid #fff;
-  padding: 1rem 0 2rem;
-  text-align: right;
 }
-footer .copyright a {
+footer .copyright span {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #fff;
+}
+footer .copyright span a {
   text-decoration: none;
   color: #fff;
-  text-align: right;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 300;
+}
+footer .copyright span a.tallentor {
+  color: #0C858E;
 }
 
 @media screen and (max-width: 991px) {
@@ -1677,6 +1724,11 @@ footer .copyright a {
   }
   footer .footer-nav {
     margin-bottom: 1rem;
+  }
+  footer .copyright {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
   }
 }
 

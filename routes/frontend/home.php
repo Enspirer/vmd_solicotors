@@ -24,6 +24,7 @@ Route::post('contact_us/store', [ContactController::class, 'store'])->name('cont
 
 Route::get('practice-areas', [PracticeAreasController::class, 'index'])->name('practice_areas');
 Route::get('practice-areas/civil-litigation', [PracticeAreasController::class, 'civil_litigation'])->name('civil_litigation');
+Route::get('practice-areas/criminal-litigation', [PracticeAreasController::class, 'criminal_litigation'])->name('criminal_litigation');
 Route::get('practice-areas/contract-disputes', [PracticeAreasController::class, 'contract_disputes'])->name('contract_disputes');
 Route::get('practice-areas/debt-recovery', [PracticeAreasController::class, 'debt_recovery'])->name('debt_recovery');
 Route::get('practice-areas/drafting-and-document-review', [PracticeAreasController::class, 'drafting'])->name('drafting');
@@ -31,8 +32,8 @@ Route::get('practice-areas/employment', [PracticeAreasController::class, 'employ
 Route::get('practice-areas/immigration', [PracticeAreasController::class, 'immigration'])->name('immigration');
 Route::get('practice-areas/landlord-and-tenant', [PracticeAreasController::class, 'landlord'])->name('landlord');
 Route::get('about-us', [AboutController::class, 'index'])->name('about');
-Route::get('compliance/money-aundering', [ComplianceController::class, 'index'])->name('compliance');
-Route::get('compliance/our-complaints-procedures', [ComplianceController::class, 'compliance_2'])->name('compliance_2');
+Route::get('compliance/money-aundering', [ComplianceController::class, 'money_laundering'])->name('money_laundering');
+Route::get('compliance/our-complaints-procedures', [ComplianceController::class, 'complaints_procedure'])->name('complaints_procedure');
 Route::get('fees-and-payments', [FeesController::class, 'index'])->name('fees');
 
 Route::post('/aiz-uploader', [AizUploadController::class, 'show_uploader']);

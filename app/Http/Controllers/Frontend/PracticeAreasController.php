@@ -15,6 +15,10 @@ class PracticeAreasController extends Controller
         return view('frontend.civil_litigation');
     }
 
+    public function criminal_litigation() {
+        return view('frontend.criminal_litigation');
+    }
+
     public function contract_disputes() {
         return view('frontend.contract_disputes');
     }

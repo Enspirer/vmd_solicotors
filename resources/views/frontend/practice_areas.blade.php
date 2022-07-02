@@ -37,7 +37,7 @@
                         <div class="title">Civil Litigation</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
+                    <p>Civil litigation concerns a legal dispute between two or more parties commonly known as the Claimant and Defendant. In most civil litigation cases, the Claimant is trying to seek monetary compensation or specific performance of services from the other party and the Defendant is denying liability thus defending the claim.</p>
                     <a href="{{route('frontend.civil_litigation')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">01</div>
                 </div>
@@ -48,11 +48,11 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
-                        <div class="title">Contract Disputes</div>
+                        <div class="title">Criminal Litigation</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.contract_disputes')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <p>Our team of criminal defence has a wealth of experience in all areas of criminal law, from personal allegations to the most serious cases of murder, fraud, theft and homicide.</p>
+                    <a href="{{route('frontend.criminal_litigation')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">02</div>
                 </div>
             </div>
@@ -62,11 +62,11 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
-                        <div class="title">Debt Recovery</div>
+                        <div class="title">Contract Disputes</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.debt_recovery')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="{{route('frontend.contract_disputes')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">03</div>
                 </div>
             </div>
@@ -76,11 +76,11 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
-                        <div class="title">Drafting and Document <br> Review</div>
+                        <div class="title">Debt Recovery</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.drafting')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <p>At VMD our Debt Recovery Charges are published in line and in accordance with the price transparency rules laid out by the Solicitors Regulation Authority. This page sets out the cost for engaging VMD Solicitors to recover debts.</p>
+                    <a href="{{route('frontend.debt_recovery')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">04</div>
                 </div>
             </div>
@@ -90,11 +90,11 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
-                        <div class="title">Employment</div>
+                        <div class="title">Drafting and Document <br> Review</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.employment')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <p>Employers have vested rights to take the decisions in line with the business needs, however, as an employee you deserve to be treated fairly.</p>
+                    <a href="{{route('frontend.drafting')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">05</div>
                 </div>
             </div>
@@ -104,11 +104,11 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
-                        <div class="title">Immigration</div>
+                        <div class="title">Employment</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
-                    <a href="{{route('frontend.immigration')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <p>Employers have vested rights to take the decisions in line with the business needs, however, as an employee you deserve to be treated fairly.</p>
+                    <a href="{{route('frontend.employment')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
                     <div class="index">06</div>
                 </div>
             </div>
@@ -118,12 +118,26 @@
                 </div>
                 <div class="content-block">
                     <div class="header">
+                        <div class="title">Immigration</div>
+                        <div class="subtitle">Last Updated: 25th February 2022</div>
+                    </div>
+                    <p>VMD is your first choice for all your Immigration matters. Our high success rate especially in Immigration and Nationality Law visa has become our pillar of strength. We are proud of our repeated clientele and welcome new customers with open arms.</p>
+                    <a href="{{route('frontend.immigration')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
+                    <div class="index">07</div>
+                </div>
+            </div>
+            <div class="pa-card lhs-card">
+                <div class="image-block">
+                    <img src="{{url('images/practice-areas/8.png')}}" alt="">
+                </div>
+                <div class="content-block">
+                    <div class="header">
                         <div class="title">Landlord and Tenant</div>
                         <div class="subtitle">Last Updated: 25th February 2022</div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat iste magni consequatur tempora nobis in perferendis cupiditate praesentium aperiam optio cumque labore, non magnam tempore doloribus est officiis? Eos nisi non iure asperiores aspernatur!</p>
+                    <p>If you’ve got problem tenants or rent arrears and need to recover your property, we can assist you. Start off with our case review. After that, if you need our help, our step-by-step approach and simple, fixed-fee services will keep you on the</p>
                     <a href="{{route('frontend.landlord')}}" class="card-link">Details <i class="bi bi-arrow-right"></i></a>
-                    <div class="index">07</div>
+                    <div class="index">08</div>
                 </div>
             </div>
         </div>

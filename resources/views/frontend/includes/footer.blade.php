@@ -45,7 +45,8 @@
             <a href="#" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="copyright">
-            <a href="https://tallentor.com/" target="_blank">Copyright @ {{date('Y')}} | Tallentor Global Ltd</a>
+            <span>&copy; <a href="#" target="_blank" rel="noopener noreferrer">VMD Solicitors</a> {{date('Y')}} | All rights reserved</span>
+            <span>Website developed by <a href="http://tallentordigital.com/" class="tallentor" target="_blank" rel="noopener noreferrer">Tallentor Digital</a></span>
         </div>
     </div>
 </footer>

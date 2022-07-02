@@ -47,7 +47,7 @@
 
                     <h5 class="mb-4">Average Fixed fee for immigration application ( excluding VAT)</h5>
                     
-                    <table class="table table-dark table-hover mb-4">
+                    <table class="table table-dark table-hover mb-4 table-bordered">
                         <thead>
                             <tr>
                                 <th scope="col" class="align-middle">#</th>
@@ -179,6 +179,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link nav-header">Our Practice Areas</a></li>
                         <li class="nav-item"><a href="{{route('frontend.civil_litigation')}}" class="nav-link">Civil Litigation</a></li>
+                        <li class="nav-item"><a href="{{route('frontend.criminal_litigation')}}" class="nav-link">Criminal Litigation</a></li>
                         <li class="nav-item"><a href="{{route('frontend.contract_disputes')}}" class="nav-link">Contract Disputes</a></li>
                         <li class="nav-item"><a href="{{route('frontend.debt_recovery')}}" class="nav-link">Debt Recovery</a></li>
                         <li class="nav-item"><a href="{{route('frontend.drafting')}}" class="nav-link">Drafting and Document Review</a></li>
@@ -245,7 +246,7 @@
 
                     <div class="col-lg-6">
                         <div class="inner-wrapper">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
+                            <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
                             <ul class="contacts">
                                 <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Solar House 915 High Road. North Finchley, <br>London N12 8QJ</a></li>
                                 <li><a href="tel:02085148703"><i class="bi bi-telephone-fill"></i>0208 514 8703</a></li>

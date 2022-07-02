@@ -25,14 +25,33 @@
             <div class="content-block">
                 <div class="wrapper">
                     <div class="title">Our complaints procedures</div>
-                    <p>We take instructions across the practice areas in which we serve.</p>
-                    <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+
+                    <p>We want to give you the best possible service. However, if at any point you become unhappy or concerned about the service we provided, then you should inform us immediately, so that we can do our best to resolve the problem.</p>
+                    <p>In the first instance, please contact the person who is working on your case to discuss your concerns and we will do our best to resolve any issues at this stage.</p>
+                    <p>If you are not happy with the outcome, please submit a formal written complaint which would be handled by the Office Manager for the Practice. All remedial action about the complaint will be documented and maintained on the client file.</p>
+                    <p>If you feel the need to take your complaint further, the final stage will be handled by the Managing Director of VMD Solicitors hoping to resolve your issue as soon as possible. Making a complaint will not affect how we handle your case.</p>
+                    <p>The Solicitors Regulation Authority can help you if you are concerned about our behaviour. This could be for things like dishonesty, taking or losing your money or treating you unfairly because of your age, a disability or other characteristic.</p>
+                    <p class="mb-5">You can raise your concerns with the <a href="https://www.sra.org.uk/consumers/problems/report-solicitor" target="_blank" rel="noopener noreferrer">Solicitors Regulation Authority</a>.</p>
+
+                    <h5 class="mb-4">What do to if we cannot resolve your complaint</h5>
+
+                    <p>The Legal Ombudsman can help you if we are unable to resolve your complaint ourselves. They will look at your complaint independently and it will not affect how we handle your case.</p>
+                    <p class="mb-4">Before accepting a complaint for investigation, the Legal Ombudsman will check that you have tried to resolve your complaint with us first. If you have, then you must take your complaint to the Legal Ombudsman:</p>
+
+                    <ul>
+                        <li><i class="bi bi-square-fill"></i>Within six months of receiving a final response to your complaint;</li>
+                        <li><i class="bi bi-square-fill"></i>No more than six years from the date of act/omission; or</li>
+                        <li><i class="bi bi-square-fill"></i>No more than three years from when you should reasonably have known there was cause for complaint.</li>
+                    </ul>
+
+                    <p class="mb-5">If you would like more information about the Legal Ombudsman, please contact them.</p>
+
+                    <ul>
+                        <li><i class="bi bi-globe2"></i><a href="https://www.legalombudsman.org.uk/" target="_blank" rel="noopener noreferrer">www.legalombudsman.org.uk</a></li>
+                        <li><i class="bi bi-telephone"></i><a href="tel:+443005550333">0300 555 0333</a> between 9am to 5pm</li>
+                        <li><i class="bi bi-envelope"></i><a href="mailto:enquiries@legalombudsman.org.uk">enquiries@legalombudsman.org.uk</a></li>
+                        <li><i class="bi bi-geo-alt"></i>Legal Ombudsman PO Box 6806, Wolverhampton, WV1 9WJ</li>
+                    </ul>
                 </div>
             </div>
             <div class="image-block">
@@ -96,7 +115,7 @@
 
                     <div class="col-lg-6">
                         <div class="inner-wrapper">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
+                            <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
                             <ul class="contacts">
                                 <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Solar House 915 High Road. North Finchley, <br>London N12 8QJ</a></li>
                                 <li><a href="tel:02085148703"><i class="bi bi-telephone-fill"></i>0208 514 8703</a></li>

@@ -25,14 +25,13 @@
             <div class="content-block">
                 <div class="wrapper">
                     <div class="title">OUR FEE & PAYMENTS</div>
-                    <p>We take instructions across the practice areas in which we serve.</p>
-                    <p>If you know the member of our team that you would like to instruct, you can get in touch with the member by visiting our team page and get in touch with them via phone or email.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
-                    <p>Upon instructing us, you will be required to sign a letter of authority in order for us to act on your behalf. You will also be required to present 2 forms of identification so we know who you are. You will then be required to sign a client care letter and our terms and conditions of business.</p>
+                    <p>At VMD, we ensure that our fees are transparent allowing you to have the information you need to make an informed decision of the legal service(s) that you require. This also include understanding what the cost may be.</p>
+                    <p>Our legal offerings are located in our <a href="{{route('frontend.practice_areas')}}">Practice Areas</a> where you will find information on the services, we provide including the fees we charge for the service.</p>
+                    <p>We understand that our clients work within budgets, and we assure the most cost effective and appropriate solutions. Our expert team will assist you throughout the whole process from the beginning to the end.</p>
+                    <p>We maintain transparency with regard to consultation fee throughout out the process, each individual need and circumstance at the outset are open to discussion. Costs may be agreed at the beginning as fixed agreed fee or as an hourly rate with a suggestion of how many hours are likely to be needed.</p>
+                    <p>Disbursements, payments made to other parties on behalf of you may become a considerable cost to VMD solicitors. Therefore, application fees, counsel fees, courier charges and other expenses will be charged additionally.</p>
+                    <p>Our clients pay VAT addition to the agreed fixed fees or hourly rates. We offer flexible payment terms for all our clients, as we believe clients are our best assets.</p>
+                    <p>Find out more about our fees by visiting our <a href="{{route('frontend.practice_areas')}}">Practice Areas</a></p>
                 </div>
             </div>
             <div class="image-block">
@@ -96,7 +95,7 @@
 
                     <div class="col-lg-6">
                         <div class="inner-wrapper">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type </p>
+                            <p>VMD Solicitors is a well-established, vibrant and friendly law practice in North London. We advise and represent clients on a wide range of practice areas form immigration to Civil Disputes.</p>
                             <ul class="contacts">
                                 <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Solar House 915 High Road. North Finchley, <br>London N12 8QJ</a></li>
                                 <li><a href="tel:02085148703"><i class="bi bi-telephone-fill"></i>0208 514 8703</a></li>
